@@ -6,3 +6,7 @@ WARNING
 I'mnot a programer and I'm Japanese
 so I can't speak English well and I can't program well
 I'm sorry.
+
+[Blocks]
+
+sand separator separates sand into scrap,copper,lead,and graphite.
