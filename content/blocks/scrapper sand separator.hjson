@@ -1,0 +1,35 @@
+
+type: Separator
+name: sand separator
+description: Separates sand into scrap and little items.
+details:making scrap and something.
+itemCapacity: 20
+health: 500
+liquidCapacity: 1
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:15
+consumes: {
+	items: {
+	    items: [
+	    sand/1
+	],
+	},
+},
+requirements: [
+  metaglass/15
+  lead/30
+  graphite/20
+]
+category: crafting
+research: sand separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    scrap/200
+    spore-pod/10
+    ]
