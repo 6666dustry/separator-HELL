@@ -1,7 +1,7 @@
 
 type: Separator
 name: sand separator2
-description: Separates sand into cheep items.
+description: Separates sand with water into cheep items.
 details:the second separator ,you don't need scrap, don't you?.
 itemCapacity: 30
 health: 500
