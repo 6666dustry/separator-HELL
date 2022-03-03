@@ -9,4 +9,8 @@ I'm sorry.
 
 [Blocks]
 
-sand separator separates sand into scrap,copper,lead,and graphite.
+<sand separator> separates sand into scrap,copper,lead,and graphite.
+
+<sand separator2> separates sand with water into copper and lead.
+
+<scrapper sand separator>separates sand into scrap and other.
