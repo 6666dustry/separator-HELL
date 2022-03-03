@@ -10,7 +10,7 @@ size: 2
 hasPower: false
 hasLiquids: true
 hasItems: true
-craftTime:15
+craftTime:30
 consumes: {
 	items: {
 	    items: [
@@ -19,9 +19,9 @@ consumes: {
 	},
 },
 requirements: [
-  metaglass/15
-  lead/30
-  graphite/20
+  copper/20
+  lead/15
+  graphite/10
 ]
 category: crafting
 research: sand separator
@@ -30,6 +30,6 @@ loopSoundVolume: 1.95
 ambientSound: respawning
 ambientSoundVolume: 0.5
 results: [
-    scrap/200
+    scrap/222
     spore-pod/10
     ]

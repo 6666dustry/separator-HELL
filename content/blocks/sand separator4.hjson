@@ -1,0 +1,43 @@
+
+type: Separator
+name: sand separator4
+description: Separates sand with water and power into many items.
+details:the final sand separator ,you have to use plustanium conveyor with unloader.
+itemCapacity: 100
+health: 1500
+liquidCapacity: 100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:2
+consumes: {
+    power:10
+	items: {
+	items:[
+	    sand/1
+	    ]
+	},
+	liquid: {
+	    liquid:water
+	    amount:0.4
+	}
+},
+requirements: [
+  lead/65
+  graphite/45
+  metaglass/35
+  titanium/30
+  thorium/15
+]
+category: crafting
+research: sand separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    graphite/40
+    titanium/22
+    thorium/10
+    ]

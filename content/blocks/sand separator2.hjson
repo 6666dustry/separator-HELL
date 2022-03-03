@@ -3,14 +3,14 @@ type: Separator
 name: sand separator2
 description: Separates sand with water into cheep items.
 details:the second separator ,you don't need scrap, don't you?.
-itemCapacity: 30
+itemCapacity: 50
 health: 500
 liquidCapacity: 100
 size: 2
 hasPower: false
 hasLiquids: true
 hasItems: true
-craftTime:10
+craftTime:13
 consumes: {
 	items: {
 	items:[
@@ -19,23 +19,22 @@ consumes: {
 	},
 	liquid: {
 	    liquid:water
-	    amount:0.05
+	    amount:0.1
 	}
 },
 requirements: [
-  copper/30
+  copper/40
   lead/25
-  graphite/20
-  metaglass/20
+  graphite/15
+  metaglass/15
 ]
 category: crafting
-research: graphite-press
+research: sand separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning
 ambientSoundVolume: 0.5
 results: [
     copper/50
-    lead/40
-    graphite/35
+    lead/45
     ]
