@@ -31,7 +31,7 @@ requirements: [
   thorium/15
 ]
 category: crafting
-research: sand separator
+research: sand separator3
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning
