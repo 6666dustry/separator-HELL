@@ -12,7 +12,7 @@ hasLiquids: true
 hasItems: true
 craftTime:2
 consumes: {
-    power:10
+    power:20
 	items: {
 	items:[
 	    sand/1
@@ -20,7 +20,7 @@ consumes: {
 	},
 	liquid: {
 	    liquid:water
-	    amount:0.4
+	    amount:0.5
 	}
 },
 requirements: [
@@ -37,6 +37,7 @@ loopSoundVolume: 1.95
 ambientSound: respawning
 ambientSoundVolume: 0.5
 results: [
+    scrap/30
     graphite/40
     titanium/22
     thorium/10
