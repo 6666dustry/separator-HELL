@@ -14,7 +14,7 @@ I'm sorry.
 
 *sand separator3* separates sand with power into copper,lead,graphite,titanium.
 
-*sand separator4* separates sand with water and power into copper,lead,graphite,titanium,thorium
+*sand separator4* separates sand with water and power into scrap,graphite,titanium,thorium
  
 *scrapper sand separator* separates sand into scrap and spore pod.
  
