@@ -3,7 +3,7 @@ type: Separator
 name: water evaporator2
 description: Evaporates water with power into  very cheep items.
 details:the second water Evaporator.
-itemCapacity: 30
+itemCapacity: 60
 health: 1000
 liquidCapacity: 222
 size: 2

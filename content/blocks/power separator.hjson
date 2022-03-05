@@ -1,0 +1,32 @@
+
+type: Separator
+name: power separator
+description: separates power into some items.
+details:separates power...?.
+itemCapacity: 30
+health: 500
+liquidCapacity: 1
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:35
+consumes: {
+    power:4.0
+},
+requirements: [
+  lead/20
+  silicon/15
+  titanium/10
+]
+category: crafting
+research: sand separator4
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    lead/50
+    silicon/20
+    titanium/10
+    ]

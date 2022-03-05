@@ -22,7 +22,7 @@ requirements: [
   metaglass/15
 ]
 category: crafting
-research: sand separator
+research: scrapper sand separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning
