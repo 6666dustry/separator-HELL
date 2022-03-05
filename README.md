@@ -8,6 +8,8 @@ I'm sorry.
 
 # blocks
 
+# separator
+
 *sand separator* separates sand into scrap,copper,lead,and graphite.
 
 *sand separator2* separates sand with water into copper and lead.
@@ -23,3 +25,13 @@ I'm sorry.
 *water evaporator2* evaporates water with power into more scrap,sand,spore ood.
 
 *water evaporator3* evaporates water with many power into scrap and sand.
+
+*power separator* separates power into lead,silicon,titanium.
+
+*power separator2* separates power with water into lead,silicon,titanium,plastanium,surge alloy.
+
+# crafter
+
+*cryomixer2* 5 titanium and water into many cryofluid.
+
+*ultramelter* 5 scrap into many slag.![sand separator](https://user-images.githubusercontent.com/98581612/156863763-db90ffd1-86e3-4070-96b4-6da586791a69.png)
