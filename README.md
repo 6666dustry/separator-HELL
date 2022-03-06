@@ -67,8 +67,8 @@ I'm sorry.
 ![oil separator3](https://user-images.githubusercontent.com/98581612/156906223-491cf4a5-46d7-4bc1-85e7-0d2b19b5e8b5.png)
 
 `cryofluid evaporator`evaporates cryofluid into lead and titanium
-!
-[cryofluid evaporator](https://user-images.githubusercontent.com/98581612/156906233-1ac6a9f5-937c-4879-8a27-a9c9e9c9e3e6.png)
+
+![cryofluid evaporator](https://user-images.githubusercontent.com/98581612/156906233-1ac6a9f5-937c-4879-8a27-a9c9e9c9e3e6.png)
 
 `cryofluid evaporator2` evaporates cryofluid with power into lead,titanium,plastanium
 
@@ -94,6 +94,6 @@ I'm sorry.
 
 # others
 
-`titaniumunloader` more faster than unloader.
+`titanium unloader` more faster than unloader.
 
 ![titanium unloader](https://user-images.githubusercontent.com/98581612/156864076-50565ca2-9668-46b7-9fbf-fe28822f8918.png)
