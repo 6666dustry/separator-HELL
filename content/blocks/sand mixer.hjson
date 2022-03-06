@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: sandmixer
+description:mexing scrap into sand.
+health: 3333
+size: 3
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+itemCapacity: 50
+spinnerSpeed:20
+liquidCapacity: 140
+
+requirements: [
+  copper/40
+  metaglass/50
+  graphite/30
+  silicon/30
+]
+
+consumes: {
+  power: 5.0
+  items: {
+    items:[
+    scrap/10
+    ]
+  }
+  liquid:{
+  liquid: water
+  amount:0.2
+  }
+}
+outputItem : sand/20
+craftTime: 540
+craftEffect: steam
+
+category: crafting
+research: ultramelter
