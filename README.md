@@ -38,6 +38,10 @@ I'm sorry.
 
 ![water evaporator2](https://user-images.githubusercontent.com/98581612/156864012-37c846dd-55a4-4575-a961-abdfe78a5dd4.png)
 
+`water vapor separator` separates water vapor into sand and water.
+
+![water vapor separator](https://user-images.githubusercontent.com/98581612/156945659-d08640a4-b087-4c6a-bc4d-a7a362a51d87.png)
+
 `water evaporator3`evaporates water with many power into scrap and sand.
 
 ![water evaporator3](https://user-images.githubusercontent.com/98581612/156864018-89283f47-f1a1-490c-9004-22c5970f7209.png)
@@ -78,6 +82,10 @@ I'm sorry.
 
 ![cryofluid evaporator3](https://user-images.githubusercontent.com/98581612/156906241-46670779-7dc1-4225-9fc7-530d57cd3bb2.png)
 
+`ultimate separator`the final separator.separates slag,scrap,sand,coal into all item.
+
+![ultimate separator](https://user-images.githubusercontent.com/98581612/156945752-08856fd0-18af-4d84-973c-81147e9aa906.png)
+
 # crafter
 
 `cryomixer2`   5 titanium and water into many cryofluid.
@@ -97,3 +105,7 @@ I'm sorry.
 `titanium unloader` more faster than unloader.
 
 ![titanium unloader](https://user-images.githubusercontent.com/98581612/156864076-50565ca2-9668-46b7-9fbf-fe28822f8918.png)
+
+`item station` use to separate many item.
+
+![item station](https://user-images.githubusercontent.com/98581612/156945780-4a4d0808-d983-4c30-b8ee-5b9f8c94bb96.png)
