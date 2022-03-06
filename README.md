@@ -38,8 +38,7 @@ I'm sorry.
 
 ![water evaporator2](https://user-images.githubusercontent.com/98581612/156864012-37c846dd-55a4-4575-a961-abdfe78a5dd4.png)
 
-`water evaporator3`
-evaporates water with many power into scrap and sand.
+`water evaporator3`evaporates water with many power into scrap and sand.
 
 ![water evaporator3](https://user-images.githubusercontent.com/98581612/156864018-89283f47-f1a1-490c-9004-22c5970f7209.png)
 
@@ -50,6 +49,14 @@ evaporates water with many power into scrap and sand.
 `power separator2`separates power with water into lead,silicon,titanium,plastanium,surge alloy.
 
 ![power separator2](https://user-images.githubusercontent.com/98581612/156864028-6c75ddc6-6ac6-4142-950c-5982aa56af6a.png)
+
+`oil separator`separates oil into spore pod,coal,pyratite
+
+`oil separator2`separates oil and coal into pyratite,plastanium,blast compound
+
+`fueler oil separator`separates oil into  spore pod,coal,pyratite,blast compound
+
+`oil separator3`separates many oil into spore pod,coal,pyratite,plastanium,blast compound
 
 # crafter
 
