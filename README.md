@@ -58,6 +58,12 @@ I'm sorry.
 
 `oil separator3`separates many oil into spore pod,coal,pyratite,plastanium,blast compound
 
+`cryofluid evaporator`evaporates cryofluid into lead and titanium
+
+`cryofluid evaporator2` evaporates cryofluid with power into lead,titanium,plastanium
+
+`cryofluid evaporator3`evaporates many cryofluid with power into lead,titanium,plastanium,phase fabric
+
 # crafter
 
 `cryomixer2`   5 titanium and water into many cryofluid.
@@ -68,6 +74,8 @@ I'm sorry.
 `ultramelter`   5 scrap into many slag.
 
 ![ultramelter](https://user-images.githubusercontent.com/98581612/156864044-28cb430c-b538-4acc-b58d-77288fd786ff.png)
+
+`sand mixer` mixing scrap into more sand 
 
 # others
 
