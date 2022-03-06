@@ -52,17 +52,31 @@ I'm sorry.
 
 `oil separator`separates oil into spore pod,coal,pyratite
 
+![oil separator](https://user-images.githubusercontent.com/98581612/156906211-969a84cc-5f95-409f-8318-46c65a0d0064.png)
+
 `oil separator2`separates oil and coal into pyratite,plastanium,blast compound
+
+![oil separator2](https://user-images.githubusercontent.com/98581612/156906216-88191663-46db-4772-aefe-8d6daa954b55.png)
 
 `fueler oil separator`separates oil into  spore pod,coal,pyratite,blast compound
 
+![fueler oil separator](https://user-images.githubusercontent.com/98581612/156906219-a0e9dda3-7411-4907-9154-56531359ca95.png)
+
 `oil separator3`separates many oil into spore pod,coal,pyratite,plastanium,blast compound
 
+![oil separator3](https://user-images.githubusercontent.com/98581612/156906223-491cf4a5-46d7-4bc1-85e7-0d2b19b5e8b5.png)
+
 `cryofluid evaporator`evaporates cryofluid into lead and titanium
+!
+[cryofluid evaporator](https://user-images.githubusercontent.com/98581612/156906233-1ac6a9f5-937c-4879-8a27-a9c9e9c9e3e6.png)
 
 `cryofluid evaporator2` evaporates cryofluid with power into lead,titanium,plastanium
 
+![cryofluid evaporator2](https://user-images.githubusercontent.com/98581612/156906238-030d6fc5-0f86-4523-bb64-7eb5a43c2e6f.png)
+
 `cryofluid evaporator3`evaporates many cryofluid with power into lead,titanium,plastanium,phase fabric
+
+![cryofluid evaporator3](https://user-images.githubusercontent.com/98581612/156906241-46670779-7dc1-4225-9fc7-530d57cd3bb2.png)
 
 # crafter
 
@@ -70,12 +84,13 @@ I'm sorry.
 
 ![cryomixer2](https://user-images.githubusercontent.com/98581612/156864037-c899ecd1-0743-4146-b0c2-a6398aca76c9.png)
 
-*
 `ultramelter`   5 scrap into many slag.
 
 ![ultramelter](https://user-images.githubusercontent.com/98581612/156864044-28cb430c-b538-4acc-b58d-77288fd786ff.png)
 
 `sand mixer` mixing scrap into more sand 
+
+![sand mixer](https://user-images.githubusercontent.com/98581612/156906253-6d3fc2d6-5d89-4837-8979-326399d8fbbf.png)
 
 # others
 
