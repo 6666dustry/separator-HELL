@@ -1,0 +1,39 @@
+type: Separator
+name: oil separator2
+description: separates oil and coal into valuable resource .
+details:the second oil separator.
+itemCapacity: 45
+health: 1000
+liquidCapacity: 100
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:40
+consumes: {
+	liquid: {
+	    liquid:oil
+	    amount:0.2
+	}
+	items:{
+	    items:[
+	    coal/3
+	    ]
+	   }
+},
+requirements: [
+  silicon/40
+  metaglass/30
+  plastanium/20
+]
+category: crafting
+research: oil separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    blast-compound/40
+    plastanium/30
+    pyratite/50
+    ]

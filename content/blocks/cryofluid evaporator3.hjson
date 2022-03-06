@@ -1,0 +1,38 @@
+type: Separator
+name: cryofluid evaporator3
+description: evaporates cryofluid into many valuable item .
+details:the final cryofluid evaporator ... WHY IT CAN MAKE PHASE FABRIC!?.
+itemCapacity: 100
+health: 1500
+liquidCapacity: 200
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:5
+consumes: {
+    power:15.0
+	liquid: {
+	    liquid:cryofluid
+	    amount:0.8
+	}
+},
+requirements: [
+  lead/60
+  metaglass/50
+  titanium/35
+  plastanium/25
+  surge-alloy/10
+]
+category: crafting
+research: cryofluid evaporator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    lead/30
+    titanium/20
+    plastanium/15
+    phase-fabric/1
+    ]

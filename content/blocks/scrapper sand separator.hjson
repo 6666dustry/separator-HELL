@@ -1,6 +1,6 @@
 
 type: Separator
-name: sand separator
+name: scrapper sand separator
 description: Separates sand into scrap and little items.
 details:making scrap and something.
 itemCapacity: 20
