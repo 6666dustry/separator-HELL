@@ -14,7 +14,6 @@ outputLiquids:true
 outputItems:true
 craftTime:90
 consumes: {
-    power:0.5
 },
 requirements: [
   lead/15
@@ -22,7 +21,7 @@ requirements: [
   copper/15
 ]
 outputItem: sand/1
-outputLiquid: water/2.4
+outputLiquid: water/3.0
 craftEffect: steam
 category: crafting
 research: water evaporator2
