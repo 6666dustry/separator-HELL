@@ -38,13 +38,25 @@ I'm sorry.
 
 ![water evaporator2](https://user-images.githubusercontent.com/98581612/156864012-37c846dd-55a4-4575-a961-abdfe78a5dd4.png)
 
-`water vapor separator` separates water vapor into sand and water.
-
-![water vapor separator](https://user-images.githubusercontent.com/98581612/156945659-d08640a4-b087-4c6a-bc4d-a7a362a51d87.png)
-
 `water evaporator3`evaporates water with many power into scrap and sand.
 
 ![water evaporator3](https://user-images.githubusercontent.com/98581612/156864018-89283f47-f1a1-490c-9004-22c5970f7209.png)
+
+`water vapor separator` separates water vapor into water and sand.
+
+![water vapor separator](https://user-images.githubusercontent.com/98581612/157130035-f9facbfd-d0e5-4ec9-b4fa-4b506e134558.png)
+
+`water vapor separator2`separates many water vapor into more water and sand
+
+![water vapor separator2](https://user-images.githubusercontent.com/98581612/157130303-5d9fba01-ead7-422d-b853-4675fce2afca.png)
+
+`tainted water vapor separator` separates tainted water vapor into spore pod and water.
+
+![tainted water vapor separator](https://user-images.githubusercontent.com/98581612/157130489-8d2ebe62-7958-45f7-a4d9-a1e948fde286.png)
+
+`tainted water vapor separator2` tainted water vapor with sand into more spore pod and water.
+
+![tainted water vapor separator2](https://user-images.githubusercontent.com/98581612/157130729-f6caf046-157a-4e8f-a637-e1c6eff875d7.png)
 
 `power separator`   separates power into lead,silicon,titanium.
 
