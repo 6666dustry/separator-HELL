@@ -100,7 +100,7 @@ I'm sorry.
 
 # crafter
 
-`cryomixer2`   5 titanium and water into many cryofluid.
+`cryomixer2`   2 titanium,1 plastanium and water into many cryofluid.
 
 ![cryomixer2](https://user-images.githubusercontent.com/98581612/156864037-c899ecd1-0743-4146-b0c2-a6398aca76c9.png)
 
@@ -108,7 +108,7 @@ I'm sorry.
 
 ![ultramelter](https://user-images.githubusercontent.com/98581612/156864044-28cb430c-b538-4acc-b58d-77288fd786ff.png)
 
-`sand mixer` mixing scrap into more sand 
+`sand mixer` mixing many scrap into more sand 
 
 ![sand mixer](https://user-images.githubusercontent.com/98581612/156906253-6d3fc2d6-5d89-4837-8979-326399d8fbbf.png)
 
