@@ -1,9 +1,9 @@
 type: Separator
 name: fueler oil separator
 description: separates oil into many fuel .
-details:don'tuse turbine It will be BOOM.
+details:don'tuse steam generator It will be BOOM.
 itemCapacity: 60
-health: 2000
+health: 700
 liquidCapacity: 200
 size: 3
 hasPower: true
@@ -14,14 +14,14 @@ consumes: {
     power:12.0
 	liquid: {
 	    liquid:oil
-	    amount:0.5
+	    amount:0.6
 	}
 },
 requirements: [
-  silicon/60
-  metaglass/40
-  plastanium/15
-  graphite/30
+  silicon/80
+  metaglass/60
+  plastanium/40
+  graphite/70
 ]
 category: crafting
 research: oil separator

@@ -3,7 +3,7 @@ name: cryofluid evaporator2
 description: evaporates cryofluid into little valuable item .
 details:the second cryofluid evaporator.
 itemCapacity: 50
-health: 1500
+health: 650
 liquidCapacity: 100
 size: 2
 hasPower: true
@@ -18,10 +18,10 @@ consumes: {
 	}
 },
 requirements: [
-  lead/40
-  metaglass/25
-  titanium/20
-  plastanium/10
+  lead/60
+  metaglass/40
+  titanium/30
+  plastanium/20
 ]
 category: crafting
 research:cryofluid evaporator

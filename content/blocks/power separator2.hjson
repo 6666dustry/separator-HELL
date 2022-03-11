@@ -19,11 +19,11 @@ consumes: {
 	}
 },
 requirements: [
-  lead/60
-  silicon/30
-  titanium/20
-  plastanium/15
-  surge-alloy/5
+  lead/100
+  silicon/85
+  titanium/50
+  plastanium/40
+  surge-alloy/15
 ]
 category: crafting
 research: power separator

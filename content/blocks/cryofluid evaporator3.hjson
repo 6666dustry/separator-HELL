@@ -3,7 +3,7 @@ name: cryofluid evaporator3
 description: evaporates cryofluid into many valuable item .
 details:the final cryofluid evaporator ... WHY IT CAN MAKE PHASE FABRIC!?.
 itemCapacity: 100
-health: 1500
+health: 750
 liquidCapacity: 200
 size: 3
 hasPower: true
@@ -14,15 +14,15 @@ consumes: {
     power:15.0
 	liquid: {
 	    liquid:cryofluid
-	    amount:0.8
+	    amount:0.7
 	}
 },
 requirements: [
-  lead/60
-  metaglass/50
-  titanium/35
-  plastanium/25
-  surge-alloy/10
+  lead/90
+  metaglass/75
+  titanium/45
+  plastanium/30
+  surge-alloy/15
 ]
 category: crafting
 research: cryofluid evaporator2

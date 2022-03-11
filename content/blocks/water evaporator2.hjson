@@ -4,7 +4,7 @@ name: water evaporator2
 description: Evaporates water with power into  very cheep items.
 details:the second water Evaporator.
 itemCapacity: 60
-health: 1000
+health: 620
 liquidCapacity: 222
 size: 2
 hasPower: true
@@ -12,15 +12,15 @@ hasLiquids: true
 hasItems: true
 craftTime:20
 consumes: {
-    power:1.0
+    power:0.8
 	liquid: {
 	    liquid:water
 	    amount:0.1
 	}
 },
 requirements: [
-  copper/20
-  silicon/20
+  copper/40
+  silicon/30
   metaglass/25
 ]
 category: crafting

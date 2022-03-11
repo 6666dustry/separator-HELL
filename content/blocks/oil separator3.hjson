@@ -18,10 +18,10 @@ consumes: {
 	}
 },
 requirements: [
-  thorium/50
-  silicon/40
-  phase-fabric/20
-  surge-alloy/30
+  thorium/75
+  silicon/65
+  phase-fabric/45
+  surge-alloy/35
 ]
 category: crafting
 research: oil separator2

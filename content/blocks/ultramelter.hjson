@@ -1,14 +1,14 @@
 type: GenericCrafter
 name: ultramelter
 description:melting scrap into slag.
-health: 675
+health: 400
 size: 2
 
 hasItems: true
 hasPower: true
 hasLiquids: true
 itemCapacity: 25
-liquidCapacity: 140
+liquidCapacity: 150
 
 requirements: [
   copper/40
@@ -18,7 +18,7 @@ requirements: [
 ]
 
 consumes: {
-  power: 6.0
+  power: 4.0
   items: {
     items:[
     scrap/5
@@ -27,10 +27,9 @@ consumes: {
 }
 outputLiquid : {
     liquid: slag
-    amount: 20
+    amount: 22
 }
 craftTime: 30
 craftEffect: steam
-
 category: crafting
 research: separator

@@ -3,7 +3,7 @@ name: cryofluid evaporator
 description: evaporates cryofluid into basic item .
 details:the first cryofluid evaporator.
 itemCapacity: 25
-health: 750
+health: 550
 liquidCapacity: 100
 size: 2
 hasPower: true
@@ -17,9 +17,9 @@ consumes: {
 	}
 },
 requirements: [
-  lead/20
-  metaglass/15
-  titanium/10
+  lead/35
+  metaglass/25
+  titanium/15
 ]
 category: crafting
 research: water evaporator3

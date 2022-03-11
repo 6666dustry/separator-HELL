@@ -1,7 +1,7 @@
-type: GenericCrafter
+type: LiquidConverter
 name: cryomixer2
 description:mixing water and titanium into cryofluid.
-health: 1200
+health: 800
 size: 3
 
 hasItems: true
@@ -21,7 +21,8 @@ consumes: {
   power: 10.0
   items: {
     items:[
-    titanium/5
+    titanium/2
+    plastanium/1
     ]
   }
   liquid: {

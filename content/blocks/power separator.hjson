@@ -15,9 +15,9 @@ consumes: {
     power:4.0
 },
 requirements: [
-  lead/20
-  silicon/15
-  titanium/10
+  lead/45
+  silicon/25
+  titanium/20
 ]
 category: crafting
 research: sand separator4
