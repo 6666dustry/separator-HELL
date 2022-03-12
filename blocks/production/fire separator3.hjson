@@ -1,0 +1,42 @@
+type: Separator
+name: fire separator3
+description: Separates fire into very useful items.
+details:the final fire separator.
+itemCapacity: 40
+health: 300
+liquidCapacity:250
+size: 3
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:15
+consumes: {
+	items: {
+	    items: [
+	    pyratite/1
+	],
+	},
+	liquid:{
+	    liquid:slag
+	    amount:0.3
+	}
+},
+requirements: [
+  silicon/100
+  metaglass/100
+  titanium/75
+  plastanium/40
+  surge-alloy/20
+]
+category: crafting
+research: fire separator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    silicon/30
+    metaglass/30
+    plastanium/20
+    surge-alloy/15
+    ]

@@ -1,0 +1,36 @@
+
+type: Separator
+name: water evaporator2
+description: Evaporates water with power into  very cheep items.
+details:the second water Evaporator.
+itemCapacity: 60
+health: 620
+liquidCapacity: 222
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:20
+consumes: {
+    power:0.8
+	liquid: {
+	    liquid:water
+	    amount:0.1
+	}
+},
+requirements: [
+  copper/40
+  silicon/30
+  metaglass/25
+]
+category: crafting
+research: water evaporator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    scrap/20
+    sand/50
+    spore-pod/35
+    ]

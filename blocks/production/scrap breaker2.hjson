@@ -1,0 +1,40 @@
+type: Separator
+name: scrap breaker2
+description: breaks some scrap into useful item .
+details:the second scrap breaker.
+itemCapacity: 35
+health: 550
+liquidCapacity: 100
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:20
+consumes: {
+	items: {
+	    items:[
+	    scrap/3
+	    ]
+	}
+	liquid:{
+    	liquid:water
+    	amount:0.1
+	}
+},
+requirements: [
+  lead/60
+  titanium/40
+  metaglass/30
+]
+category: crafting
+research: scrap breaker
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    copper/20
+    lead/20
+    graphite/20
+    titanium/10
+    ]

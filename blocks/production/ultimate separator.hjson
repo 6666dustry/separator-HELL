@@ -1,0 +1,54 @@
+type: Separator
+name: ultimate separator
+description: super separator.
+details:you beat this mod.
+itemCapacity: 100
+health: 1000
+liquidCapacity: 300
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:20
+consumes: {
+    power:10.0
+	liquid: {
+	    liquid:slag
+	    amount:0.5
+	}
+	items:{
+	    items:[
+	    sand/1
+	    coal/1
+	    scrap/1
+	    ]
+	}
+},
+requirements: [
+  lead/100
+  metaglass/75
+  titanium/60
+  plastanium/50
+  surge-alloy/30
+  phase-fabric/30
+]
+category: crafting
+research: power separator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    copper/10
+    lead/10
+    graphite/10
+    silicon/10
+    pyratite/10
+    metaglass/10
+    titanium/10
+    plastanium/10
+    blast-compound/10
+    thorium/10
+    surge-alloy/10
+    phase-fabric/10
+]

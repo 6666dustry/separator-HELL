@@ -1,0 +1,34 @@
+type: Separator
+name: scrap breaker
+description: breaks scrap into basic item .
+details:the first scrap breaker.
+itemCapacity: 15
+health: 350
+liquidCapacity: 1
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:30
+consumes: {
+	items: {
+	    items:[
+	    scrap/1
+	    ]
+	}
+},
+requirements: [
+  lead/35
+  copper/25
+]
+category: crafting
+research: scrapper sand separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    copper/20
+    lead/20
+    sand/60
+    ]
