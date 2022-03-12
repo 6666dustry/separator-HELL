@@ -1,0 +1,29 @@
+type:attributeSmelter
+name: tainted water vapor separator
+description: separates tainted water vapor into water and little resource.
+details:you can make INFINITY power.
+itemCapacity: 20
+health: 300
+liquidCapacity: 60
+size: 2
+requiresWater: true
+hasPower: true
+hasLiquids: true
+hasItems: true
+outputLiquids:true
+outputItems:true
+craftTime:130
+attribute:spores
+consumes: {
+    power:0.3
+},
+requirements: [
+  graphite/20
+  metaglass/15
+  copper/20
+]
+outputItem: spore-pod/1
+outputLiquid: water/8.0
+craftEffect: steam
+category: crafting
+research: water vapor separator2

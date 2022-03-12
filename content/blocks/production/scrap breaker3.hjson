@@ -1,0 +1,42 @@
+type: Separator
+name: scrap breaker3
+description: breaks many scrap into very useful item .
+details:the final scrap breaker.
+itemCapacity: 70
+health: 600
+liquidCapacity: 150
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:15
+consumes: {
+    power:5.0
+	items: {
+	    items:[
+	    scrap/5
+	    ]
+	}
+	liquid:{
+    	liquid:water
+    	amount:0.3
+	}
+},
+requirements: [
+  lead/100
+  silicon/80
+  titanium/70
+  surge-alloy/40
+]
+category: crafting
+research: scrap breaker2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    graphite/17
+    titanium/15
+    thorium/10
+    surge-alloy/8
+    ]

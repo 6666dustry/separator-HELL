@@ -1,0 +1,37 @@
+
+type: Separator
+name: sand separator
+description: Separates sand into cheep items.
+details:the first separator.
+itemCapacity: 25
+health: 500
+liquidCapacity: 1
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:25
+consumes: {
+	items: {
+	    items: [
+	    sand/1
+	],
+	},
+},
+requirements: [
+  copper/35
+  lead/25
+  graphite/15
+]
+category: crafting
+research: scrap breaker
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    scrap/125
+    copper/50
+    lead/40
+    graphite/20
+    ]

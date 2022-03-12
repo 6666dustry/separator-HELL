@@ -1,0 +1,38 @@
+type: Separator
+name: fire separator
+description: Separates fire into cheep items.
+details:the first fire separator.
+itemCapacity: 30
+health: 100
+liquidCapacity: 100
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:60
+consumes: {
+	items: {
+	    items: [
+	    spore-pod/3
+	],
+	},
+	liquid:{
+	    liquid:slag
+	    amount:0.1
+	}
+},
+requirements: [
+  silicon/35
+  metaglass/30
+  titanium/25
+]
+category: crafting
+research: spore separator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    silicon/30
+    metaglass/30
+    ]

@@ -1,0 +1,41 @@
+type: Separator
+name: spore separator3
+description: Separates spore into useful items.
+details:the final spore separator.
+itemCapacity: 70
+health: 300
+liquidCapacity: 100
+size: 3
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:15
+consumes: {
+	items: {
+	    items: [
+	    spore-pod/2
+	],
+	},
+	liquid:{
+	    liquid:oil
+	    amount:0.2
+	}
+},
+requirements: [
+  copper/100
+  lead/100
+  graphite/75
+  titanium/60
+  plastanium/40
+]
+category: crafting
+research: spore separator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    pyratite/20
+    plastanium/20
+    blast-compound/20
+    ]

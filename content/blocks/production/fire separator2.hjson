@@ -1,0 +1,40 @@
+type: Separator
+name: fire separator2
+description: Separates fire into useful items.
+details:the second fire separator.
+itemCapacity: 40
+health: 250
+liquidCapacity: 200
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:30
+consumes: {
+	items: {
+	    items: [
+	    coal/2
+	],
+	},
+	liquid:{
+	    liquid:slag
+	    amount:0.2
+	}
+},
+requirements: [
+  silicon/60
+  metaglass/60
+  titanium/40
+  plastanium/20
+]
+category: crafting
+research: fire separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    silicon/30
+    metaglass/30
+    plastanium/20
+    ]

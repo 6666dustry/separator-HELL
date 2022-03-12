@@ -1,0 +1,36 @@
+type: Separator
+name: cryofluid evaporator2
+description: evaporates cryofluid into little valuable item .
+details:the second cryofluid evaporator.
+itemCapacity: 50
+health: 650
+liquidCapacity: 100
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:20
+consumes: {
+    power:5.5
+	liquid: {
+	    liquid:cryofluid
+	    amount:0.3
+	}
+},
+requirements: [
+  lead/60
+  metaglass/40
+  titanium/30
+  plastanium/20
+]
+category: crafting
+research:cryofluid evaporator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    lead/30
+    titanium/20
+    plastanium/15
+    ]
