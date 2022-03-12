@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: water vapor separator
+description: separates water vapor into water and little resource.
+details:upgraded pump ...?
+itemCapacity: 10
+health: 250
+liquidCapacity: 75
+size: 2
+requiresWater: true
+hasPower: true
+hasLiquids: true
+hasItems: true
+outputLiquids:true
+outputItems:true
+craftTime:80
+consumes: {
+},
+requirements: [
+  lead/15
+  metaglass/20
+  copper/15
+]
+outputItem: sand/1
+outputLiquid: water/5.0
+craftEffect: steam
+category: crafting
+research: water evaporator2

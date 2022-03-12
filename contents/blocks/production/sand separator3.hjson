@@ -1,0 +1,39 @@
+
+type: Separator
+name: sand separator3
+description: Separates sand with power into cheep items.
+details:the third separator It can make titanium.
+itemCapacity: 75
+health: 500
+liquidCapacity: 1
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime:7
+consumes: {
+    power:6.0
+	items: {
+	    items: [
+	    sand/1
+	],
+	},
+},
+requirements: [
+  copper/70
+  lead/60
+  graphite/50
+  titanium/45
+]
+category: crafting
+research: sand separator2
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    copper/45
+    lead/40
+    graphite/25
+    titanium/15
+    ]
