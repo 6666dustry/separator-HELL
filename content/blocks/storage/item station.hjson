@@ -1,0 +1,15 @@
+name:item station
+description:use to separate items to many separator.
+type:StorageBlock
+size:5
+health:200
+hasItem:true
+itemCapacity:1500
+requirements:[
+    titanium/150
+    silicon/150
+    plastanium/150
+    thorium/150
+]
+category:effect
+research:vault
