@@ -112,6 +112,10 @@ I'm sorry.
 
 ![sand mixer](https://user-images.githubusercontent.com/98581612/156906253-6d3fc2d6-5d89-4837-8979-326399d8fbbf.png)
 
+`spore press2` pessing spore with water into oil and coal.
+
+![spore press2](https://user-images.githubusercontent.com/98581612/158007994-ab1144b9-5665-4ea4-8b8f-3f620a027e29.pn
+
 # others
 
 `titanium unloader` more faster than unloader.
@@ -121,3 +125,5 @@ I'm sorry.
 `item station` use to separate many item.
 
 ![item station](https://user-images.githubusercontent.com/98581612/156945780-4a4d0808-d983-4c30-b8ee-5b9f8c94bb96.png)
+
+`metal conveyor` more faster than plastanium conveyor.
