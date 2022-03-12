@@ -1,0 +1,17 @@
+name: metal junction
+type: Junction
+description: faster than junction. can be placed on ground AND on liquids
+requirements: 
+ [
+copper/5
+lead/5
+titanium/4
+thorium/3
+surge-alloy/2
+]
+health: 300
+speed: 30.0
+itemCapacity: 20
+research: metal conveyor
+category: distribution
+placeableLiquid: true

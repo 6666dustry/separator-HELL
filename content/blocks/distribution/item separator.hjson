@@ -1,0 +1,13 @@
+type:Router
+name:item separator
+description:In short, just big router
+size:3
+health:500
+itemCapacity:3
+speed:30.0
+requirements:[
+    copper/30
+    lead/20
+    ]
+category:distribution
+research:distributor

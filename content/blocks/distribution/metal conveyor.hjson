@@ -1,0 +1,17 @@
+name: metal conveyor
+type: StackConveyor
+description: very slow coveyor but faster than plastainum conveyor. can be placed on ground AND on liquids
+requirements: 
+ [
+copper/1
+lead/1
+titanium/1
+thorium/1
+surge-alloy/1
+]
+health: 200
+speed: 0.03
+itemCapacity: 75
+research: item separator
+category: distribution
+placeableLiquid: true
