@@ -114,7 +114,7 @@ I'm sorry.
 
 `spore press2` pessing spore with water into oil and coal.
 
-![spore press2](https://user-images.githubusercontent.com/98581612/158007994-ab1144b9-5665-4ea4-8b8f-3f620a027e29.pn
+![spore press2](https://user-images.githubusercontent.com/98581612/158008096-018dc39a-87f4-4416-b236-cbd66d7fc8cb.png)
 
 # others
 
@@ -127,3 +127,5 @@ I'm sorry.
 ![item station](https://user-images.githubusercontent.com/98581612/156945780-4a4d0808-d983-4c30-b8ee-5b9f8c94bb96.png)
 
 `metal conveyor` more faster than plastanium conveyor.
+
+![metal conveyor](https://user-images.githubusercontent.com/98581612/158008103-b6d5dbd5-683b-4966-8c6a-05cf0e53b379.png)
