@@ -1,4 +1,4 @@
-# more-separator
+# separator HELL
 my first mindustry mod this mod add many separator
 but they're not enough so you should be use with another mod.
 # WARNING
@@ -129,3 +129,10 @@ I'm sorry.
 `metal conveyor` more faster than plastanium conveyor.
 
 ![metal conveyor](https://user-images.githubusercontent.com/98581612/158008103-b6d5dbd5-683b-4966-8c6a-05cf0e53b379.png)
+
+`metal conduit` more faster than palse conduit
+
+`item separator/liquid separator` just big router
+
+![item separator](https://user-images.githubusercontent.com/98581612/158039367-e48da2d3-679c-4486-9128-a88a7f8c20e4.png)
+![liquid separator-bottom](https://user-images.githubusercontent.com/98581612/158039379-60562935-cb30-490f-b77c-491026c8d5d8.png)
