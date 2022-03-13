@@ -94,6 +94,14 @@ I'm sorry.
 
 ![cryofluid evaporator3](https://user-images.githubusercontent.com/98581612/156906241-46670779-7dc1-4225-9fc7-530d57cd3bb2.png)
 
+`spore separator` separates 2 spore pods into coal and pyratite.
+
+![spore separator](https://user-images.githubusercontent.com/98581612/158039475-abbbcddf-1fe4-4245-ae1c-852c41c7d5a8.png)
+
+`spore separator2` separetes 3 spore pods into coal,pyratite blast compound and plastanium.
+
+![spore separator2](https://user-images.githubusercontent.com/98581612/158039515-0df929d2-93c5-497a-9f5b-d3321af493f9.png)
+
 `ultimate separator`the final separator.separates slag,scrap,sand,coal into all item.
 
 ![ultimate separator](https://user-images.githubusercontent.com/98581612/156945752-08856fd0-18af-4d84-973c-81147e9aa906.png)
