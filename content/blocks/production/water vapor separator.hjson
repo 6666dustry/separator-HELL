@@ -7,7 +7,7 @@ health: 250
 liquidCapacity: 75
 size: 2
 requiresWater: true
-hasPower: true
+hasPower: false
 hasLiquids: true
 hasItems: true
 outputLiquids:true
