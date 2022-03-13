@@ -17,7 +17,7 @@ consumes: {
 	}
 	items:{
 	    items:[
-	    coal/3
+	    coal/2
 	    ]
 	   }
 },
