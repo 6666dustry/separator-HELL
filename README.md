@@ -161,3 +161,6 @@ I'm sorry.
 
 ![item separator](https://user-images.githubusercontent.com/98581612/158039367-e48da2d3-679c-4486-9128-a88a7f8c20e4.png)
 ![liquid separator-bottom](https://user-images.githubusercontent.com/98581612/158039379-60562935-cb30-490f-b77c-491026c8d5d8.png)
+
+# TODO
+write original texture
