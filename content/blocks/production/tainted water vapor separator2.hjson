@@ -22,10 +22,10 @@ consumes: {
     }
 },
 requirements: [
-  metaglass/40
-  copper/60
-  silicon/40
-  graphite/45
+  metaglass/60
+  copper/85
+  silicon/50
+  titanium/45
 ]
 outputItem: spore-pod/22
 outputLiquid: water/113.0
