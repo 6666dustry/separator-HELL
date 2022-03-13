@@ -82,6 +82,19 @@ I'm sorry.
 
 ![oil separator3](https://user-images.githubusercontent.com/98581612/156906223-491cf4a5-46d7-4bc1-85e7-0d2b19b5e8b5.png)
 
+
+`fire separator` separates fire into metaglass and silicon
+
+![fire separator](https://user-images.githubusercontent.com/98581612/158043764-5a7e5ff2-1529-4b9a-808b-7e7108431fb7.png)
+
+`fire separator2` separates more fire into metaglass,silicon and plastanium
+
+![fire separator2](https://user-images.githubusercontent.com/98581612/158043809-554c2466-3698-44c6-aec3-3fe102bae1fc.png)
+
+`fire separator3` separates many fire into metaglass,silicon,plastanium and surge alloy
+
+![fire separator3](https://user-images.githubusercontent.com/98581612/158043842-e30343d1-e6c9-47aa-813b-a6b55cb3e0cc.png)
+
 `cryofluid evaporator`evaporates cryofluid into lead and titanium
 
 ![cryofluid evaporator](https://user-images.githubusercontent.com/98581612/156906233-1ac6a9f5-937c-4879-8a27-a9c9e9c9e3e6.png)
@@ -101,6 +114,10 @@ I'm sorry.
 `spore separator2` separetes 3 spore pods into coal,pyratite blast compound and plastanium.
 
 ![spore separator2](https://user-images.githubusercontent.com/98581612/158039515-0df929d2-93c5-497a-9f5b-d3321af493f9.png)
+
+`spore separator3` separates 2 spore with oil into pyratite,plastanium and blast compound
+
+![spore separator3](https://user-images.githubusercontent.com/98581612/158043735-d36e5856-4352-4f4e-a33e-69ef31846eac.png)
 
 `ultimate separator`the final separator.separates slag,scrap,sand,coal into all item.
 
