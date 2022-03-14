@@ -155,6 +155,10 @@ I'm sorry.
 
 ![metal conveyor](https://user-images.githubusercontent.com/98581612/158008103-b6d5dbd5-683b-4966-8c6a-05cf0e53b379.png)
 
+`metal junction` more faster than junction
+
+![metal junction](https://user-images.githubusercontent.com/98581612/158177879-b8d9938f-fdb0-4f70-b54f-5c93c695bc7a.png)
+
 `metal conduit` more faster than palse conduit
 
 `item separator/liquid separator` just big router
