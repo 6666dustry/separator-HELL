@@ -5,7 +5,7 @@ description: separates power into many items.
 details:you can get surge alloy but It's not enough.
 itemCapacity: 60
 health: 1234
-liquidCapacity: 1
+liquidCapacity:250 
 size: 3
 hasPower: true
 hasLiquids: true
