@@ -3,6 +3,7 @@ description:use to separate items to separator.
 type:unloader
 health:225
 speed:2
+group:transportation
 alwaysReplace:true
 requirements:[
     titanium/40
