@@ -23,7 +23,7 @@ requirements: [
   graphite/25
 ]
 category: crafting
-research: oil separator
+research: scrapper sand separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning

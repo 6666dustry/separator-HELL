@@ -20,7 +20,7 @@ requirements: [
   titanium/20
 ]
 category: crafting
-research: sand separator4
+research: oil separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning
