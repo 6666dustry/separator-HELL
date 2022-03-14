@@ -3,14 +3,14 @@ type: StackConveyor
 description: very slow coveyor but faster than plastainum conveyor. can be placed on ground AND on liquids
 requirements: 
  [
-copper/1
-lead/1
-titanium/1
-thorium/1
+copper/5
+lead/5
+titanium/3
+thorium/2
 surge-alloy/1
 ]
-health: 200
-speed: 0.03
+health: 500
+speed: 0.04
 itemCapacity: 75
 research: item separator
 category: distribution
