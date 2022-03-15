@@ -1,0 +1,36 @@
+type: Separator
+name: burner oil separator
+description: separates oil into basic resource .
+details:"burning it self =)."
+itemCapacity: 45
+health: 3000
+liquidCapacity: 100
+size: 3
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:20
+consumes: {
+	liquid: {
+	    liquid:oil
+	    amount:0.3
+	}
+},
+requirements: [
+  silicon/80
+  metaglass/60
+  titanium/50
+  plastanium/40
+]
+category: crafting
+research: fueler oil separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    silicon/50
+    plastanium/30
+    metaglass/50
+    scrap/10
+    ]
