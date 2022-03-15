@@ -78,6 +78,10 @@ I'm sorry.
 
 ![fueler oil separator](https://user-images.githubusercontent.com/98581612/156906219-a0e9dda3-7411-4907-9154-56531359ca95.png)
 
+`burner oil separator` separates oil into scrap,silicon,metaglass and plastanium.
+
+![burner oil separator](https://user-images.githubusercontent.com/98581612/158357168-e944d01c-1656-4ee7-8102-a0a4e4270c78.png)
+
 `oil separator3`separates many oil into spore pod,coal,pyratite,plastanium,blast compound
 
 ![oil separator3](https://user-images.githubusercontent.com/98581612/156906223-491cf4a5-46d7-4bc1-85e7-0d2b19b5e8b5.png)
