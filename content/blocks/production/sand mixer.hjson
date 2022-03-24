@@ -33,6 +33,6 @@ consumes: {
 outputItem : sand/30
 craftTime: 520
 craftEffect: steam
-
 category: crafting
+drawer:drawRotator
 research: ultramelter

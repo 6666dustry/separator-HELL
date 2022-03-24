@@ -1,0 +1,27 @@
+name:oiltaker
+description: taking oil!
+type:GenericCrafter
+category:crafting
+health:300
+size:1
+hasPower: false
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 100
+craftTime:20
+research:oilpacker
+consumes: {
+    items:{
+        items:[
+            packedoil/1
+        ]
+    }
+}
+outputLiquid:oil/12
+requirements:[
+    copper/20
+    lead/20
+    metaglass/15
+    ]
+craftEffect:hitLiquid

@@ -1,4 +1,4 @@
-type: LiquidConverter
+type: GenericCrafter
 name: cryomixer2
 description:mixing water and titanium into cryofluid.
 health: 800
@@ -37,6 +37,6 @@ outputLiquid : {
 
 craftTime: 120
 craftEffect: steam
-
+drawer:drawMixer
 category: crafting
 research: ultramelter

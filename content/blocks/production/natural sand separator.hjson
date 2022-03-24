@@ -1,0 +1,35 @@
+type: Separator
+name: natural sand separator
+description: Separates sand into natural items.
+details:yeeey!.
+itemCapacity: 50
+health: 200
+liquidCapacity: 1
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime:26
+consumes: {
+	items: {
+	items:[
+	    sand/1
+	    ]
+    }
+},
+requirements: [
+  copper/30
+  lead/25
+  graphite/10
+]
+category: crafting
+research: sand separator
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    coal/40
+    scrap/60
+    spore-pod/30
+    ]

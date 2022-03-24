@@ -32,4 +32,5 @@ outputLiquid : {
 craftTime: 30
 craftEffect: steam
 category: crafting
+drawer:drawMixer
 research: separator

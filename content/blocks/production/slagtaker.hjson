@@ -1,0 +1,27 @@
+name:slagtaker
+description: taking slag!
+type:GenericCrafter
+category:crafting
+health:300
+size:1
+hasPower: false
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 100
+craftTime:20
+research:slagpacker
+consumes: {
+    items:{
+        items:[
+            packedslag/1
+        ]
+    }
+}
+outputLiquid:slag/12
+requirements:[
+    copper/20
+    lead/20
+    metaglass/15
+    ]
+craftEffect:hitLiquid
