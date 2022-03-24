@@ -1,0 +1,36 @@
+ammoTypes:{
+    surge-alloy:{
+        type:basicBulletType
+        damage:75
+        speed:7
+        width:16
+        height:23
+        status:shocked
+        lightning:2
+        lightningDamage:15
+        lightningLength:10
+        ammoMultiplier:5
+        knockback:1.2
+        pierceCap:3
+        pierceBuilding:true
+        backColor:FFE000
+        }
+    blast-compound:{
+        type:basicBulletType
+        damage:30
+        speed:7
+        width:16
+        height:23
+        ammoMultiplier:4
+        knockback:4.5
+        splashDamage:30
+        splashDamageRadius:40
+        pierceCap:1
+        backColor:D0001C
+        status:blasted
+        }
+    //this is vannila contents
+    graphite:standardDenseBig
+    pyratite:standardIncendiaryBig
+    thorium:standardThoriumBig
+    }
