@@ -11,7 +11,7 @@ requirements:[
     silicon/40
     ]
 consumes:{
-    power:4.5
+    power:4.0
     }
 plans:[
     {
@@ -33,7 +33,7 @@ plans:[
         requirements:[
             scrap/50
             ]
-        time:2500
+        time:2800
         }
             {
         unit:flare
@@ -47,7 +47,7 @@ plans:[
         requirements:[
             scrap/40
             ]
-        time:2000
+        time:2500
         }
             {
         unit:risso
