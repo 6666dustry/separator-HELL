@@ -36,6 +36,17 @@ ammoTypes:{
         despawnEffect:hitLancer
         hitEffect:hitLancer
         }
+    silicon:{
+        type:flakBulletType
+        reloadMultiplier:1.5
+        ammoMultiplier:4
+        splashDamage:20
+        damage:2
+        speed:4.5
+        homingRange:100
+        homingPower:0.04
+        backColor:7A7A7A
+        }
     packedwater:{
         type:liquidBulletType
         liquid:water
