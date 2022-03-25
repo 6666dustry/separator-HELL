@@ -200,7 +200,7 @@ ammoTypes:{
         healPercent:2
         collidesTeam:true
         pierce:true
-        lifetime:110
+        lifetime:90
         ammoMultiplier:4
         statusDuration:30
         status:disarmed
