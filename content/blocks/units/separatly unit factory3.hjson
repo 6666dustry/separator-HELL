@@ -1,0 +1,106 @@
+type:UnitFactory
+name:separatly unit factory3
+description:many scrap and water into unit .
+health:2222
+size:7
+itemCapacity:6000
+liquidCapacity:120
+requirements:[
+    copper/3000
+    lead/2000
+    plastanium/500
+    silicon/1000
+    metaglass/800
+    ]
+consumes:{
+    liquid:water/1.0
+    power:10.0
+    }
+plans:[
+    {
+        unit:scepter
+        requirements:[
+            scrap/2000
+            ]
+        time:7500
+        }
+            {
+        unit:arkyid
+        requirements:[
+            scrap/1800
+            ]
+        time:7000
+        }
+            {
+        unit:vela
+        requirements:[
+            scrap/2300
+            ]
+        time:7000
+        }
+            {
+        unit:antumbra
+        requirements:[
+            scrap/1800
+            ]
+        time:6500
+        }
+            {
+        unit:quad
+        requirements:[
+            scrap/2500
+            ]
+        time:8000
+        }
+            {
+        unit:sei
+        requirements:[
+            scrap/3000
+            ]
+        time:9500
+        }
+            {
+        unit:fortress
+        requirements:[
+            scrap/500
+            ]
+        time:2800
+        }
+            {
+        unit:spiroct
+        requirements:[
+            scrap/450
+            ]
+        time:2600
+        }
+            {
+        unit:quasar
+        requirements:[
+            scrap/600
+            ]
+        time:4100
+        }
+            {
+        unit:zenith
+        requirements:[
+            scrap/400
+            ]
+        time:2600
+        }
+            {
+        unit:mega
+        requirements:[
+            scrap/800
+            ]
+        time:5000
+        }
+            {
+        unit:bryde
+        requirements:[
+            scrap/800
+            ]
+        time:3600
+        }
+    ]
+research:separatly unit factory2
+category:units

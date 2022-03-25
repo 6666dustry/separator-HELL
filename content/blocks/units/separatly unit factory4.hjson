@@ -1,0 +1,61 @@
+type:UnitFactory
+name:separatly unit factory FOUR
+description:very very many scrap into mega unit.
+health:3333
+size:9
+itemCapacity:30000
+requirements:[
+    copper/3000
+    lead/3000
+    titanium/2000
+    silicon/3000
+    metaglass/100
+    surge-alloy/750
+    thorium/1500
+    ]
+plans:[
+    {
+        unit:reign
+        requirements:[
+            scrap/9000
+            ]
+        time:15000
+        }
+            {
+        unit:toxopid
+        requirements:[
+            scrap/12000
+            ]
+        time:15000
+        }
+            {
+        unit:corvus
+        requirements:[
+            scrap/13000
+            ]
+        time:17000
+        }
+            {
+        unit:eclipse
+        requirements:[
+            scrap/9000
+            ]
+        time:14000
+        }
+            {
+        unit:oct
+        requirements:[
+            scrap/11000
+            ]
+        time:16000
+        }
+            {
+        unit:omura
+        requirements:[
+            scrap/12000
+            ]
+        time:17000
+        }
+    ]
+research:separatly unit factory3
+category:units

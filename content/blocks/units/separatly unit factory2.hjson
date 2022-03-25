@@ -1,0 +1,105 @@
+type:UnitFactory
+name:separatly unit factory2
+description:many scrap and slag into unit.
+health:1111
+size:5
+itemCapacity:180
+liquidCapacity:120
+requirements:[
+    copper/750
+    lead/750
+    titanium/250
+    silicon/500
+    metaglass/500
+    ]
+consumes:{
+    liquid:slag/0.4
+    }
+plans:[
+    {
+        unit:dagger
+        requirements:[
+            scrap/40
+            ]
+        time:900
+        }
+            {
+        unit:crawler
+        requirements:[
+            scrap/35
+            ]
+        time:700
+        }
+            {
+        unit:nova
+        requirements:[
+            scrap/60
+            ]
+        time:1900
+        }
+            {
+        unit:flare
+        requirements:[
+            scrap/30
+            ]
+        time:700
+        }
+            {
+        unit:mono
+        requirements:[
+            scrap/50
+            ]
+        time:1500
+        }
+            {
+        unit:risso
+        requirements:[
+            scrap/70
+            ]
+        time:2100
+        }
+            {
+        unit:mace
+        requirements:[
+            scrap/60
+            ]
+        time:1100
+        }
+            {
+        unit:atrax
+        requirements:[
+            scrap/55
+            ]
+        time:900
+        }
+            {
+        unit:pulsar
+        requirements:[
+            scrap/80
+            ]
+        time:2100
+        }
+            {
+        unit:horizon
+        requirements:[
+            scrap/50
+            ]
+        time:900
+        }
+            {
+        unit:poly
+        requirements:[
+            scrap/70
+            ]
+        time:1700
+        }
+            {
+        unit:minke
+        requirements:[
+            scrap/90
+            ]
+        time:2300
+        }
+    ]
+research:separatly unit factory
+category:units

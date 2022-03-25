@@ -1,0 +1,61 @@
+type:UnitFactory
+name:separatly unit factory
+description:many scrap into unit.
+health:250
+size:3
+itemCapacity:120
+requirements:[
+    copper/50
+    lead/50
+    titanium/20
+    silicon/40
+    ]
+consumes:{
+    power:4.5
+    }
+plans:[
+    {
+        unit:dagger
+        requirements:[
+            scrap/30
+            ]
+        time:1200
+        }
+            {
+        unit:crawler
+        requirements:[
+            scrap/25
+            ]
+        time:1000
+        }
+            {
+        unit:nova
+        requirements:[
+            scrap/50
+            ]
+        time:2500
+        }
+            {
+        unit:flare
+        requirements:[
+            scrap/20
+            ]
+        time:900
+        }
+            {
+        unit:mono
+        requirements:[
+            scrap/40
+            ]
+        time:2000
+        }
+            {
+        unit:risso
+        requirements:[
+            scrap/60
+            ]
+        time:2800
+        }
+    ]
+research:additive-reconstructor
+category:units
