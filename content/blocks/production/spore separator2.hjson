@@ -20,8 +20,8 @@ consumes: {
 requirements: [
   copper/50
   lead/40
-  graphite/45
   titanium/35
+  plastanium/10
 ]
 category: crafting
 research: spore separator
