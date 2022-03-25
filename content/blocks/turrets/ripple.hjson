@@ -70,7 +70,7 @@ ammoTypes:{
         splashDamageRadius:55
         splashDamage:55
         reloadMultiplier:0.25
-        ammoMultiplier:4
+        ammoMultiplier:2
         width:13
         height:13
         backColor:0071FF
