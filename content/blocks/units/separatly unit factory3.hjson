@@ -6,11 +6,12 @@ size:7
 itemCapacity:6000
 liquidCapacity:120
 requirements:[
-    copper/3000
+    copper/2000
     lead/2000
     plastanium/500
     silicon/1000
-    metaglass/800
+    metaglass/500
+    thorium/750
     ]
 consumes:{
     liquid:water/1.0

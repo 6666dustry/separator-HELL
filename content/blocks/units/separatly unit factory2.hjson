@@ -6,11 +6,11 @@ size:5
 itemCapacity:180
 liquidCapacity:120
 requirements:[
-    copper/750
-    lead/750
-    titanium/250
-    silicon/500
-    metaglass/500
+    copper/500
+    lead/500
+    titanium/150
+    silicon/300
+    metaglass/300
     ]
 consumes:{
     liquid:slag/0.4
