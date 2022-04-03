@@ -3,6 +3,7 @@ name:separatly unit factory FOUR
 description:very very many scrap into mega unit.
 health:3333
 size:9
+hasPower:false
 itemCapacity:30000
 requirements:[
     copper/3000
@@ -57,5 +58,5 @@ plans:[
         time:17000
         }
     ]
-research:separatly unit factory3
+research:tetrative-reconstructor
 category:units

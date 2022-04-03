@@ -103,5 +103,5 @@ plans:[
         time:3600
         }
     ]
-research:separatly unit factory2
+research:exponential-reconstructor
 category:units
