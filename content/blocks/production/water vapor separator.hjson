@@ -24,4 +24,4 @@ outputItem: sand/1
 outputLiquid: water/5.0
 craftEffect: steam
 category: crafting
-research: water evaporator2
+research:mechanical-pump

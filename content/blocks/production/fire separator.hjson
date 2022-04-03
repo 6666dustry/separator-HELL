@@ -27,7 +27,7 @@ requirements: [
   titanium/25
 ]
 category: crafting
-research: spore separator2
+research: differential-generator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning

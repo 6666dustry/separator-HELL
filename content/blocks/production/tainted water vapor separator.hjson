@@ -26,4 +26,4 @@ outputItem: spore-pod/1
 outputLiquid: water/8.0
 craftEffect: steam
 category: crafting
-research: water vapor separator2
+research: cultivator

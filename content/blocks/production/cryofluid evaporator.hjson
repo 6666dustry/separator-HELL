@@ -22,7 +22,7 @@ requirements: [
   titanium/15
 ]
 category: crafting
-research: water evaporator3
+research: cryofluid-mixer
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning

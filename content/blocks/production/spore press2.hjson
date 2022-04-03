@@ -35,6 +35,9 @@ outputLiquid : {
 }
 outputItem:coal/1
 craftTime: 30
-craftEffect: steam
+craftEffect: {
+    colorTo:C600FF
+    length:40
+}
 category: crafting
-research: ultramelter
+research: spore-press

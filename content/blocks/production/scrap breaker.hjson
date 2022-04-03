@@ -22,7 +22,7 @@ requirements: [
   copper/25
 ]
 category: crafting
-research: graphite-press
+research: pulverizer
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning

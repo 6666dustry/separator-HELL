@@ -23,7 +23,7 @@ requirements: [
   graphite/10
 ]
 category: crafting
-research: sand separator
+research: spore separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning

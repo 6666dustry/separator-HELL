@@ -23,7 +23,7 @@ requirements: [
   lead/15
 ]
 category: crafting
-research: scrapper sand separator
+research:water vapor separator
 loopSound: respawning
 loopSoundVolume: 1.95
 ambientSound: respawning
