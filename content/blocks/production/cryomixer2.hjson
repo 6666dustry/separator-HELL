@@ -36,7 +36,16 @@ outputLiquid : {
 }
 
 craftTime: 120
-craftEffect: steam
+craftEffect: {
+    type:waveEffect
+    strokeFrom:5.0
+    sizeTo:50
+    colorTo:00EDFF
+}
+updateEffect: {
+    colorTo:00F5FF
+    length:45
+}
 drawer:drawMixer
 category: crafting
-research: ultramelter
+research: cryofluid-mixer

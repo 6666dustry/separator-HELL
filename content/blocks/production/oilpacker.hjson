@@ -10,7 +10,7 @@ hasItems: true
 itemCapacity: 20
 liquidCapacity: 100
 craftTime:20
-research:slagpacker
+research:spore-press
 consumes: {
     liquid:oil/0.6
     }
@@ -20,4 +20,7 @@ requirements:[
     lead/20
     metaglass/15
     ]
-craftEffect:hitLiquid
+craftEffect:{
+    colorTo:000000FF
+    colorFrom:555555FF
+}

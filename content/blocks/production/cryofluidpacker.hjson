@@ -10,7 +10,7 @@ hasItems: true
 itemCapacity: 20
 liquidCapacity: 100
 craftTime:20
-research:oilpacker
+research:cryofluid-mixer
 consumes: {
     liquid:cryofluid/0.6
     }
@@ -20,4 +20,6 @@ requirements:[
     lead/20
     metaglass/15
     ]
-craftEffect:hitLiquid
+craftEffect:{
+    colorTo:00D9FF
+}

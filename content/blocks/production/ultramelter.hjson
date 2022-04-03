@@ -30,7 +30,16 @@ outputLiquid : {
     amount: 22
 }
 craftTime: 30
-craftEffect: steam
+craftEffect: {
+    type:particleEffect
+    particles:14
+    lifetime:90
+    length:20
+    colorTo:FF860055
+    colorFrom:DDDDDDBB
+    sizeFrom:0.5
+    sizeTo:1.5
+}
 category: crafting
 drawer:drawMixer
 research: separator
