@@ -12,6 +12,6 @@ surge-alloy/1
 health: 500
 speed: 0.04
 itemCapacity: 75
-research: item separator
+research: plastanium-conveyor
 category: distribution
 placeableLiquid: true
