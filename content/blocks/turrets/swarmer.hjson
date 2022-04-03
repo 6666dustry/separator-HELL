@@ -10,8 +10,42 @@ ammoTypes:{
         splashDamageRadius:10
         frontColor:B3B3B3
         backColor:616161
+        trailEffect:{
+            type:particleEffect
+            particles:1
+            sizeFrom:3.0
+            colorTo:7C7C7C
+            length:0
+        }
         hitEffect:blastExplosion
         ammoMultiplier:4
+        }
+    titanium:{
+        type:missileBulletType
+        width:7
+        height:8
+        homingPower:0.04
+        reloadMultiplier:0.5
+        ammoMultiplier:4
+        speed:3.7
+        damage:10
+        splashDamage:15
+        splashDamageRadius:25
+        backColor:0079FF
+        hitEffect:none
+        trailEffect:{
+            type:particleEffect
+            colorTo:7FEBFFAA
+            }
+        despawnEffect:{
+            type:waveEffect
+            sizeTo:25
+            colorTo:7FEBFFAA
+            }
+        ammoMultiplier:4
+        knockback:2.5
+        status:freezing
+        statusDuration:300
         }
     packedoil:{
         type:missileBulletType
@@ -22,9 +56,23 @@ ammoTypes:{
         damage:20
         splashDamage:18
         splashDamageRadius:25
-        incendAmount:5
+        incendChance:0.1
+        incendAmount:1
         incendSpread:60
-        frontColor:222222
+        trailEffect:{
+            type:particleEffect
+            colorTo:66666666
+            }
+            
+        hitEffect:{
+            type:waveEffect
+            sizeTo:25
+            lifetime:15
+            colorTo:000000FF
+            colorFrom:000000FF
+        }
+        frontColor:555555FF
+        backColor:222222FF
         hitEffect:blastExplosion
         puddles:1
         puddleAmount:20

@@ -10,7 +10,17 @@ ammoTypes:{
         lifetime:18
         pierce:true
         collidesair:false
-        shootEffect:shootSmallFlame
+        despawnEffect:none
+        shootEffect:{
+            type:particleEffect
+            particles:6
+            colorTo:7900FF
+            length:60
+            lifetime:20
+            sizeFrom:2.0
+            sizeTo:1.0
+            cone:10
+            }
         hitEffect:hitFlameSmall
         despawnEffect:none
         hittable:false
@@ -28,9 +38,10 @@ ammoTypes:{
         status:melting
         orbSize:2.0
         speed:5.0
+        collidesair:false
         maxRange:180
         lifetime:12
-        ammoMultiplier:10
+        ammoMultiplier:15
         shootEffect:shootSmallFlame
         }
     packedoil:{
@@ -41,10 +52,21 @@ ammoTypes:{
         status:tarred
         orbSize:2.0
         speed:5.0
+        collidesair:false
         maxRange:180
         lifetime:12
-        ammoMultiplier:10
-        shootEffect:shootSmallFlame
+        ammoMultiplier:15
+        shootEffect:{
+            type:particleEffect
+            particles:6
+            colorFrom:000000FF
+            colorTo:00000055
+            length:60
+            lifetime:20
+            sizeFrom:2.0
+            sizeTo:1.0
+            cone:10
+            }
         }
     //this is vannila contents
     coal:basicFlame

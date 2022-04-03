@@ -25,7 +25,39 @@ ammoTypes:{
         height:13
         frontColor:FFFE00
         backColor:FFF100
-        hitEffect:blastExplosion
+        status:shocked
+        hitEffect:{
+            type:multiEffect
+            effects:[
+                {
+                    type:particleEffect
+                    colorTo:FFF900FF
+                    region:shell
+                    length:100
+                    lifetime:90
+                    spin:1.0
+                    sizeFrom:4.0
+                    particles:12
+                }
+                {
+                    type:waveEffect
+                    colorTo:FFF900FF
+                    lifetime:80
+                    sizeTo:45
+                    strokeFrom:8.0
+                }
+            ]
+        }
+        trailEffect:{
+            type:particleEffect
+            colorTo:FFF900DD
+            region:shell
+            particles:3
+            cone:-50
+            length:50
+            lifetime:90
+            sizeFrom:4.5
+        }
     }
     metaglass:{
         type:artilleryBulletType
@@ -45,6 +77,21 @@ ammoTypes:{
         knockback:1.5
         width:13
         height:13
+        despawnEffect:{
+            type:waveEffect
+            colorTo:FFFFFF
+            sizeTo:40
+            lifetime:20
+            }
+        hitEffect:{
+            type:particleEffect
+            region:shell
+            colorTo:EEEEEEEE
+            length:150
+            lifetime:150
+            sizeFrom:4.5
+            particles:15
+        }
         fragBullet:{
             type:artilleryBulletType
             speed:1.0
@@ -56,7 +103,7 @@ ammoTypes:{
             absorbable:false
             hittable:false
             despawnEffect:blastExplosion
-            knockBack:0.5
+            knockback:0.5
             width:9
             height:11
             fragBullets:4
@@ -67,21 +114,46 @@ ammoTypes:{
         type:artilleryBulletType
         speed:3.0
         damage:0
-        splashDamageRadius:55
-        splashDamage:55
-        reloadMultiplier:0.25
+        splashDamageRadius:40
+        splashDamage:35
+        reloadMultiplier:0.2
         ammoMultiplier:2
         width:13
         height:13
+        knockback:3.0
         backColor:0071FF
         hitEffect:blastExplosion
         status:unmoving
         statusDuration:33
+        despawnEffect:{
+            type:waveEffect
+            colorTo:0047FF
+            sizeTo:40
+            lifetime:20
+            }
+        hitEffect:{
+            type:particleEffect
+            region:shell
+            colorTo:0096FF
+            length:85
+            lifetime:250
+            sizeFrom:3.5
+            particles:12
+        }
+        trailEffect:{
+            type:particleEffect
+            region:shell
+            colorTo:0096FF
+            length:15
+            lifetime:90
+            sizeFrom:6.0
+            particles:3
+        }
         }
     packedwater:{
         type:artilleryBulletType
         damage:0
-        splashDamage:0
+        splashDamage:2
         splashDamageRadius:30
         speed:3.0
         knockback:2.0
@@ -89,17 +161,36 @@ ammoTypes:{
         lifetime:90
         width:15
         height:15
-        ammoMultiplier:6
-        reloadMultiplier:1.5
+        trailInterval:0.5
+        trailEffect:{
+            type:particleEffect
+            colorTo:004EFFFF
+            particles:3
+            lightColor:004EFFFF
+            length:-40
+            lifetime:60
+            sizeFrom:3.0
+            sizeTo:0.0
+            cone:60
+            }
+        ammoMultiplier:10
+        despawnEffect:{
+                type:waveEffect
+                colorTo:004EFFFF
+                strokeFrom:5.0
+                sizeTo:25
+                lifetime:18
+            }
+        reloadMultiplier:2.0
         backColor:007EFF
-        puddles:3
+        puddles:4
         puddleAmount:30
         puddleRange:20
         puddleLiquid:water
         }
     packedcryofluid:{
         type:artilleryBulletType
-        damage:0
+        damage:2
         splashDamage:0
         splashDamageRadius:30
         speed:3.0
@@ -108,10 +199,28 @@ ammoTypes:{
         lifetime:90
         width:15
         height:15
-        ammoMultiplier:6
-        reloadMultiplier:1.5
+        trailEffect:{
+            type:particleEffect
+            colorTo:00DDFFFF
+            particles:3
+            lightColor:00DDFFFF
+            length:-40
+            lifetime:60
+            sizeFrom:3.0
+            sizeTo:0.0
+            cone:60
+            }
+        ammoMultiplier:10
+        despawnEffect:{
+                type:waveEffect
+                colorTo:00DDFFFF
+                strokeFrom:5.0
+                sizeTo:25
+                lifetime:18
+            }
+        reloadMultiplier:2.0
         backColor:00ECFF
-        puddles:3
+        puddles:4
         puddleAmount:30
         puddleRange:20
         puddleLiquid:cryofluid
@@ -119,18 +228,36 @@ ammoTypes:{
     packedslag:{
         type:artilleryBulletType
         damage:40
-        splashDamage:20
+        splashDamage:15
         splashDamageRadius:30
         speed:3.0
         knockback:2.0
         status:melting
         lifetime:90
+        trailEffect:{
+            type:particleEffect
+            colorTo:FF8600FF
+            particles:3
+            lightColor:FF8600FF
+            length:-40
+            lifetime:60
+            sizeFrom:3.0
+            sizeTo:0.0
+            cone:60
+            }
         width:15
         height:15
-        ammoMultiplier:6
-        reloadMultiplier:1.5
+        ammoMultiplier:10
+        despawnEffect:{
+                type:waveEffect
+                colorTo:FF8600FF
+                strokeFrom:5.0
+                sizeTo:25
+                lifetime:18
+            }
+        reloadMultiplier:2.0
         backColor:FF8100
-        puddles:3
+        puddles:4
         puddleAmount:30
         puddleRange:20
         puddleLiquid:slag
@@ -138,7 +265,7 @@ ammoTypes:{
     packedoil:{
         type:artilleryBulletType
         damage:0
-        splashDamage:0
+        splashDamage:2
         splashDamageRadius:30
         speed:3.0
         knockback:2.0
@@ -146,10 +273,29 @@ ammoTypes:{
         lifetime:90
         width:15
         height:15
-        ammoMultiplier:6
-        reloadMultiplier:1.5
-        backColor:000000
-        puddles:3
+        trailEffect:{
+            type:particleEffect
+            colorFrom:666666FF
+            colorTo:000000CC
+            particles:3
+            lightColor:000000FF
+            length:-40
+            lifetime:60
+            sizeFrom:3.0
+            sizeTo:0.0
+            cone:60
+            }
+        despawnEffect:{
+                type:waveEffect
+                colorTo:000000FF
+                strokeFrom:5.0
+                sizeTo:25
+                lifetime:18
+            }
+        ammoMultiplier:10
+        reloadMultiplier:2.0
+        backColor:000000FF
+        puddles:4
         puddleAmount:30
         puddleRange:20
         puddleLiquid:oil

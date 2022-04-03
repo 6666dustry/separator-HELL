@@ -1,5 +1,5 @@
-ammoTypes:{
-    silicon:{
+ammoTypes: {
+    silicon: {
         type:flakBulletType
         homing:true
         speed:4.4
@@ -7,34 +7,60 @@ ammoTypes:{
         damage:15
         collidesGround:true
         backColor:A1A1A1
-        }
-    thorium:{
+    }
+    thorium: {
         type:flakBulletType
         homingPower:0.02
-        homingRange:50
+        homingRange:75
         speed:4.2
         damage:15
+        knockback:5.0
+        ammoMultiplier:1
         splashDamage:30
-        splashDamageRadius:120
+        splashDamageRadius:80
+        pierce:true
         explodeRange:60
-        explodeDelay:20
+        explodeDelay:-60
+        reloadMultiplier:0.5
         collidesGround:true
+        despawnSound:explosion
+        hitSound:explosion
+        status:blasted
         backColor:F600FF
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorTo:FF92F4FF
+                strokeFrom:5.0
+                sizeTo:75
+                lifetime:18
+            }
+                {
+                    type:particleEffect
+                    colorFrom:C8FFA2FF
+                    colorTo:C8FFA2AA
+                    length:85
+                    sizeFrom:6.5
+                    lifetime:50
+                    particles:15
+                }]
         }
-    copper:{
+    }
+    copper: {
         type:flakBulletType
         speed:4.2
         damage:7
         splashDamage:15
         splashDamageRadius:20
         explodeRange:60
-        explodeDelay:20
+        explodeDelay:10
         collidesGround:true
-        }
-    packedwater:{
+    }
+    packedwater: {
         type:liquidBulletType
         liquid:water
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         knockback:1.5
         puddleSize:30
         status:wet
@@ -42,12 +68,12 @@ ammoTypes:{
         speed:3.5
         maxRange:210
         lifetime:60
-        ammoMultiplier:8
-        }
-    packedcryofluid:{
+        ammoMultiplier:10
+    }
+    packedcryofluid: {
         type:liquidBulletType
         liquid:cryofluid
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         knockback:1.5
         puddleSize:30
         status:freezing
@@ -55,12 +81,12 @@ ammoTypes:{
         speed:3.5
         maxRange:210
         lifetime:60
-        ammoMultiplier:8
-        }
-    packedslag:{
+        ammoMultiplier:10
+    }
+    packedslag: {
         type:liquidBulletType
         liquid:slag
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         knockback:1.5
         damage:10
         puddleSize:30
@@ -69,12 +95,12 @@ ammoTypes:{
         speed:3.5
         maxRange:210
         lifetime:60
-        ammoMultiplier:8
-        }
-    packedoil:{
+        ammoMultiplier:10
+    }
+    packedoil: {
         type:liquidBulletType
         liquid:oil
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         knockback:1.5
         puddleSize:30
         status:tarred
@@ -82,11 +108,11 @@ ammoTypes:{
         speed:3.5
         maxRange:210
         lifetime:60
-        ammoMultiplier:8
-        }
+        ammoMultiplier:10
+    }
     //this is vanilla contents
     metaglass:fragGlass
     blast-compound:fragExplosive
     plastanium:fragPlastic
     surge-alloy:fragSurge
-    }
+}

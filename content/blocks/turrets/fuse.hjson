@@ -11,6 +11,15 @@ ammoTypes:{
         lightningDamage:20
         status:shocked
         toColor:FFF900
+        despawnEffect:{
+            particles:10
+            sizeFrom:6.0
+            colorTo:F9FF00
+            cone:30
+            length:10
+            baseLength:110
+            region:shell
+            }
         }
     plastanium:{
         type:shrapnelBulletType
@@ -21,6 +30,52 @@ ammoTypes:{
         healPercent:2
         collidesTeam:true
         toColor:81FF00
+        }
+    blast-compound:{
+        type:shrapnelBulletType
+        length:110
+        ammoMultiplier:5
+        width:18
+        damage:100
+        knockback:8.0
+        splashDamage:50
+        splashDamageRadius:105
+        reloadMultiplier:0.7
+        status:blasted
+        toColor:FF000E
+        shootEffect:{
+            type:multiEffect
+            lifetime:20
+            effects:[
+                {
+                    type:waveEffect
+                    lifetime:15
+                    lightColor:FF2300
+                    sides:-1
+                    strokeFrom:8.0
+                    strokeFrom:6.0
+                    colorTo:FF2300
+                }
+                {
+                    type:particleEffect
+                    colorFrom:FFB38E
+                    colorTo:FF2366
+                    lifetime:40
+                    particles:22
+                    spin:15.4
+                    lightColor:FF2300
+                    lightScl:4.5
+                    length:150
+                    randLength:false
+                    baseLength:0
+                    line:false
+                    clip:-50
+                    cone:360
+                    sizeFrom:6.5
+                    sizeTo:1.0 
+                }
+                ]
+            }
         }
         //this is vanilla contents
     titanium:{
@@ -37,7 +92,7 @@ ammoTypes:{
         ammoMultiplier:5
         width:17
         damage:105
-        toColor:thoriumPink
+        toColor:FF73E5
         shootEffect:thoriumShoot
         smokeEffect:thoriumShoot
         }

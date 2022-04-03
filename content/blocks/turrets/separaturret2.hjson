@@ -58,6 +58,7 @@ ammoTypes:{
         fragBullets:1
         fragLifeMin:0.9
         fragLifeMax:1.1
+        trailEffect:none
         fragBullet:{
             type:basicBulletType
             speed:0
@@ -65,9 +66,21 @@ ammoTypes:{
             splashDamageRadius:35
             lifetime:1200
             splashDamage:8
-            knockback:1.5
+            knockback:3.5
             pierceBuilding:true
             status:slow
+            width:7
+            heigth:2
+            despawnEffect:none
+            trailEffect:none
+            hitEffect:{
+                type:particleEffect
+                ColorFrom:FFFCB0EE
+                colorTo:FFECB866
+                length:65
+                lifetime:40
+                sizeFrom:3.5
+                }
             }
         }
     scrap:{
@@ -92,9 +105,13 @@ ammoTypes:{
         lifetime:110
         ammoMultiplier:4
         makeFire:true
-        incend:true
+        incendAmount:1
         status:burning
         backColor:FF4B00
+        despawnEffect:{
+            type:particleEffect
+            colorTo:FF0004
+            }
         }
     graphite:{
         type:basicBulletType
@@ -143,6 +160,25 @@ ammoTypes:{
         puddleAmount:130
         puddleRange:5
         puddleLiquid:water
+        trailEffect:{
+            type:particleEffect
+            region:"shell"
+            particles:5
+            }
+        hitEffect:{
+            type:particleEffect
+            length:50
+            lifetime:15
+            region:"shell"
+            particles:10
+            colorTo:FFFFFFFF
+            }
+        despawnEffect:{
+            type:waveEffect
+            sizeTo:25
+            lifetime:15
+            colorTo:FFFFFFFF
+            }
         }
     pyratite:{
         type:basicBulletType
@@ -152,11 +188,23 @@ ammoTypes:{
         lifetime:110
         ammoMultiplier:4
         puddles:5
-        puddleAmount:50
-        puddleRange:60
+        puddleAmount:30
+        puddleRange:30
         puddleLiquid:slag
         status:melting
+        splashDamage:5
+        splashDamageRadius:10
         backColor:FF8200
+        hitEffect:{
+            type:waveEffect
+            sizeTo:35
+            colorTo:FF8500
+            lifetime:30
+        }
+        despawnEffect:{
+            type:particleEffect
+            colorTo:FF8200
+            }
         }
     spore-pod:{
         type:basicBulletType
@@ -174,6 +222,18 @@ ammoTypes:{
         incendAmount:5
         incendChance:0.01
         incendSpread:25
+        splashDamage:5
+        splashDamageRadius:10
+        hitEffect:{
+            type:waveEffect
+            sizeTo:40
+            colorTo:BE00FF
+            lifetime:25
+            }
+        despawnEffect:{
+            type:particleEffect
+            colorTo:BE00FF
+            }
         }
     titanium:{
         type:basicBulletType
@@ -191,6 +251,12 @@ ammoTypes:{
         puddleAmount:20
         puddleRange:25
         puddleLiquid:cryofluid
+        despawnEffect:{
+            type:waveEffect
+            colorTo:005FFF
+            strokeFrom:4.0
+            sizeTo:40
+            }
         }
     plastanium:{
         type:LaserBoltBulletType
@@ -222,8 +288,21 @@ ammoTypes:{
         fragCone:360
         fragBullets:6
         fragLifeMax:2.7
-        despawnSound:blasted
-        despawnEffect:blastExplosion
+        hitSound:explosion
+        despawnEffect:{
+            type:multiEffect
+            effects:[
+                {
+                    type:particleEffect
+                    SizeFrom:5.0
+                    lifetime:60
+                    length:70
+                    particles:10
+                    colorTo:FF4600
+                    }
+                    blastExplosion
+                ]
+            }
         fragBullet:{
             damage:20
             speed:1.5
@@ -233,6 +312,7 @@ ammoTypes:{
             width:10
             height:10
             despawnEffect:blastExplosion
+            hitSound:explosion
             backColor:DD000E
             status:blasted
             }
@@ -247,7 +327,7 @@ ammoTypes:{
         speed:2.5
         maxRange:210
         lifetime:110
-        ammoMultiplier:6
+        ammoMultiplier:9
         }
     packedcryofluid:{
         type:liquidBulletType
@@ -259,7 +339,7 @@ ammoTypes:{
         speed:2.5
         maxRange:210
         lifetime:110
-        ammoMultiplier:6
+        ammoMultiplier:9
         }
     packedslag:{
         type:liquidBulletType
@@ -272,7 +352,7 @@ ammoTypes:{
         speed:2.5
         maxRange:210
         lifetime:110
-        ammoMultiplier:6
+        ammoMultiplier:9
         }
     packedoil:{
         type:liquidBulletType
@@ -284,6 +364,6 @@ ammoTypes:{
         speed:2.5
         maxRange:210
         lifetime:110
-        ammoMultiplier:6
+        ammoMultiplier:9
         }
     }

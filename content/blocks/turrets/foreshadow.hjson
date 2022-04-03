@@ -1,6 +1,6 @@
-ammoTypes:{
-//this is vannila contents
-    surge-alloy:{
+ammoTypes: {
+    //this is vannila contents
+    surge-alloy: {
         type:pointBulletType
         shootEffect:instShoot
         hitEffect:instHit
@@ -13,122 +13,578 @@ ammoTypes:{
         speed:500
         hitShake:6
         ammoMultiplier:1
-        }
-//this is modify contents
-    packedwater:{
+    }
+    //this is modify contents
+    packedwater: {
         type:pointBulletType
         shootEffect:instShoot
-        hitEffect:instHit
+        hitEffect:none
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorFrom:5E95FFCC
+                colorTo:5E95FF88
+                lifetime:30
+                strokeFrom:10.0    
+            }
+                {
+                    type:particleEffect
+                    colorFrom:5E95FFCC
+                    colorTo:5E95FF88
+                    particles:15
+                    length:80
+                    lifetime:45
+                    lenFrom:6.0
+                    sizeFrom:20.0
+                    sizeTo:0.0
+                    line:true
+                }
+                {
+                    type:particleEffect
+                    colorFrom:5E95FFCC
+                    colorTo:5E95FF88
+                    particles:30
+                    length:150
+                    lifetime:75
+                    sizeFrom:10.0
+                    sizeTo:0.0
+                }]
+        }
         smokeEffect:smokeCloud
-        trailEffect:instTrail
-        despawnEffect:instBomb
-        trailSpacing:20
+        trailEffect: {
+            type:multiEffect
+            effects:[{
+                type:particleEffect
+                offset:90
+                colorFrom:5E95FFCC
+                colorTo:5E95FF88
+                particles:1
+                sizeFrom:15.0
+                sizeTo:0.0
+                length:0
+                randLength:false
+                lifetime:45
+                region:bullet-back
+                cone:0
+                lenFrom:10.0
+                lenTo:10.0
+            }
+                {
+                    type:particleEffect
+                    colorFrom:5E95FFCC
+                    colorTo:5E95FFAA
+                    particles:8
+                    length:60
+                    lifetime:30
+                    sizeFrom:6.0
+                    sizeTo:0.0
+                }]
+        }
+        trailSpacing:15
         damage:100
-        reloadMultiplier:1.5
+        reloadMultiplier:2.2
         status:wet
         speed:500
         hitShake:6
         ammoMultiplier:1
-        puddles:1
-        puddleAmount:100
-        puddleRange:3
+        puddles:11
+        puddleAmount:200
+        puddleRange:30
         puddleLiquid:water
-        fragBullets:15
-        fragVelocityMin:1.2
-        fragVelocityMax:2.1
+        fragBullets:35
+        fragVelocityMin:0.5
+        fragVelocityMax:0.7
         fragBullet:heavyWaterShot
-        }
-    packedcryofluid:{
+    }
+    packedcryofluid: {
         type:pointBulletType
         shootEffect:instShoot
-        hitEffect:instHit
         smokeEffect:smokeCloud
-        trailEffect:instTrail
-        despawnEffect:instBomb
-        trailSpacing:20
+        hitEffect:none
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorFrom:74F2FFCC
+                colorTo:74F2FF88
+                lifetime:30
+                strokeFrom:10.0    
+            }
+                {
+                    type:particleEffect
+                    colorFrom:74F2FFCC
+                    colorTo:74F2FF88
+                    particles:15
+                    length:80
+                    lifetime:45
+                    lenFrom:6.0
+                    sizeFrom:20.0
+                    sizeTo:0.0
+                    line:true
+                }
+                {
+                    type:particleEffect
+                    colorFrom:74F2FFCC
+                    colorTo:74F2FF88
+                    particles:30
+                    length:150
+                    lifetime:75
+                    sizeFrom:10.0
+                    sizeTo:0.0
+                }]
+        }
+        trailSpacing:15
+        trailEffect: {
+            type:multiEffect
+            effects:[{
+                type:particleEffect
+                offset:90
+                colorFrom:74F2FFCC
+                colorTo:74F2FF88
+                particles:1
+                sizeFrom:15.0
+                sizeTo:0.0
+                length:0
+                randLength:false
+                lifetime:45
+                region:bullet-back
+                cone:0
+                lenFrom:10.0
+                lenTo:10.0
+            }
+                {
+                    type:particleEffect
+                    colorFrom:74F2FFCC
+                    colorTo:74F2FFAA
+                    particles:8
+                    length:60
+                    lifetime:30
+                    sizeFrom:6.0
+                    sizeTo:0.0
+                }]
+        }
         damage:100
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         status:freezing
         speed:500
         hitShake:6
         ammoMultiplier:1
-        puddles:1
-        puddleAmount:100
-        puddleRange:3
+        puddles:11
+        puddleAmount:200
+        puddleRange:30
         puddleLiquid:cryofluid
-        fragBullets:15
-        fragVelocityMin:1.2
-        fragVelocityMax:2.1
+        fragBullets:35
+        fragVelocityMin:0.5
+        fragVelocityMax:0.7
         fragBullet:heavyCryoShot
-        }
-    packedslag:{
+    }
+
+    packedslag: {
         type:pointBulletType
         shootEffect:instShoot
-        hitEffect:instHit
         smokeEffect:smokeCloud
-        trailEffect:instTrail
-        despawnEffect:instBomb
-        trailSpacing:20
-        damage:500
-        reloadMultiplier:1.5
+        hitEffect:none
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorFrom:FFA862CC
+                colorTo:FFA86288
+                lifetime:30
+                strokeFrom:10.0    
+            }
+                {
+                    type:particleEffect
+                    colorFrom:FFA862CC
+                    colorTo:FFA86288
+                    particles:15
+                    length:80
+                    lifetime:45
+                    lenFrom:6.0
+                    sizeFrom:20.0
+                    sizeTo:0.0
+                    line:true
+                }
+                {
+                    type:particleEffect
+                    colorFrom:FFA862CC
+                    colorTo:FFA86288
+                    particles:30
+                    length:150
+                    lifetime:75
+                    sizeFrom:10.0
+                    sizeTo:0.0
+                }]
+        }
+        trailSpacing:15
+        trailEffect: {
+            type:multiEffect
+            effects:[{
+                type:particleEffect
+                offset:90
+                colorFrom:FFA862CC
+                colorTo:FFA86288
+                particles:1
+                sizeFrom:15.0
+                sizeTo:0.0
+                length:0
+                randLength:false
+                lifetime:45
+                region:bullet-back
+                cone:0
+                lenFrom:10.0
+                lenTo:10.0
+            }
+                {
+                    type:particleEffect
+                    colorFrom:FFA862CC
+                    colorTo:FFA862AA
+                    particles:5
+                    length:60
+                    lifetime:25
+                    sizeFrom:5.0
+                    sizeTo:0.0
+                }]
+        }
+        damage:350
+        buildingDamageMultiplier:0.4
+        reloadMultiplier:2.0
         status:melting
         speed:500
         hitShake:6
         ammoMultiplier:1
-        puddles:1
-        puddleAmount:100
-        puddleRange:3
+        puddles:11
+        puddleAmount:200
+        puddleRange:30
         puddleLiquid:slag
-        fragBullets:15
-        fragVelocityMin:1.2
-        fragVelocityMax:2.1
+        fragBullets:35
+        fragVelocityMin:0.5
+        fragVelocityMax:0.7
         fragBullet:heavySlagShot
-        }
-    packedoil:{
+    }
+    packedoil: {
         type:pointBulletType
         shootEffect:instShoot
-        hitEffect:instHit
         smokeEffect:smokeCloud
-        trailEffect:instTrail
-        despawnEffect:instBomb
-        trailSpacing:20
+        hitEffect:none
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorFrom:000000CC
+                colorTo:00000088
+                lifetime:30
+                strokeFrom:10.0    
+            }
+                {
+                    type:particleEffect
+                    colorFrom:000000CC
+                    colorTo:00000088
+                    particles:15
+                    length:80
+                    lifetime:45
+                    lenFrom:6.0
+                    sizeFrom:20.0
+                    sizeTo:0.0
+                    line:true
+                }
+                {
+                    type:particleEffect
+                    colorFrom:000000CC
+                    colorTo:00000088
+                    particles:30
+                    length:150
+                    lifetime:75
+                    sizeFrom:10.0
+                    sizeTo:0.0
+                }]
+        }
+        trailSpacing:15
+        trailEffect: {
+            type:multiEffect
+            effects:[{
+                type:particleEffect
+                offset:90
+                colorFrom:000000CC
+                colorTo:00000088
+                particles:1
+                sizeFrom:15.0
+                sizeTo:0.0
+                length:0
+                randLength:false
+                lifetime:45
+                region:bullet-back
+                cone:0
+                lenFrom:10.0
+                lenTo:10.0
+            }
+                {
+                    type:particleEffect
+                    colorFrom:000000CC
+                    colorTo:000000AA
+                    particles:8
+                    length:60
+                    lifetime:30
+                    sizeFrom:6.0
+                    sizeTo:0.0
+                }]
+        }
         damage:100
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         status:tarred
         speed:500
         hitShake:6
         ammoMultiplier:1
-        puddles:1
-        puddleAmount:100
-        puddleRange:3
+        puddles:11
+        puddleAmount:200
+        puddleRange:30
         puddleLiquid:oil
-        fragBullets:15
-        fragVelocityMin:1.2
-        fragVelocityMax:2.1
+        fragBullets:35
+        fragVelocityMin:0.5
+        fragVelocityMax:0.7
         fragBullet:heavyOilShot
-        }
-    blast-compound:{
+    }
+    blast-compound: {
         type:pointBulletType
         shootEffect:instShoot
         hitEffect:instHit
+        hitSound:explosionbig
         smokeEffect:smokeCloud
-        trailEffect:instTrail
-        despawnEffect:instBomb
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorTo:FF9999FF
+                lightColor:FF0000FF
+                strokeFrom:12.0
+                sizeTo:110
+                lifetime:35
+            }
+                {
+                    type:waveEffect
+                    colorTo:FF9999FF
+                    lightColor:FF0000FF
+                    strokeFrom:3
+                    sizeTo:20
+                    lifetime:15
+                    baseLength:140
+                    startDelay:200
+                }
+                {
+                    type:particleEffect
+                    colorTo:FF9999FF
+                    lightColor:FF0000FF
+                    particles:15
+                    length:80
+                    lifetime:45
+                    lenFrom:6.0
+                    sizeFrom:25.0
+                    sizeTo:0.0
+                    line:true
+                    layer:115
+                }
+                {
+                    type:particleEffect
+                    colorTo:FF9999FF
+                    lightColor:FF0000FF
+                    particles:30
+                    length:150
+                    lifetime:85
+                    sizeFrom:10.0
+                    sizeTo:0.0
+                    baseLength:50
+                }]
+        }
         trailSpacing:20
-        damage:1000
+        trailEffect: {
+            type:multiEffect
+            effects:[{
+                type:particleEffect
+                offset:90
+                colorTo:FF9999FF
+                lightColor:FF0000FF
+                particles:1
+                sizeFrom:15.0
+                sizeTo:0.0
+                length:0
+                randLength:false
+                lifetime:45
+                region:bullet-back
+                cone:0
+                lenFrom:10.0
+                lenTo:10.0
+            }
+                {
+                    type:particleEffect
+                    colorTo:FF9999FF
+                    particles:12
+                    lightColor:FF0000FF
+                    length:-60
+                    lifetime:35
+                    sizeFrom:5.0
+                    sizeTo:0.0
+                    cone:60
+                }]
+        }
+        damage:100
+        knockback:10.0
+        impact:true
         splashDamage:500
         splashDamageRadius:120
-        reloadMultiplier:0.8
-        buildingDamageMultiplier:0.3
-        incendAmount:10
-        incendSpread:50
+        reloadMultiplier:0.5
+        buildingDamageMultiplier:0.2
+        incendAmount:15
+        incendSpread:60
         status:blasted
         speed:500
-        hitShake:6
+        hitShake:10
         ammoMultiplier:1
-        fragBullets:10
-        fragVelocityMin:0.1
-        fragVelocityMax:1.7
+        fragBullets:22
+        fragLifeMin:1.5
+        fragLifeMax:2.2
+        fragVelocityMin:0.05
+        fragVelocityMax:0.5
         fragBullet:artilleryExplosive
+    }
+    thorium: {
+        type:pointBulletType
+        shootEffect:instShoot
+        hitEffect:none
+        smokeEffect:smokeCloud
+        trailEffect:instTrail
+        hitSound:explosionbig
+        reloadMultiplier:0.3
+        buildingDamageMultiplier:0.2
+        ammoMultiplier:1
+        despawnEffect: {
+            type:multiEffect
+            effects:[{
+                type:waveEffect
+                colorTo:FF92F4FF
+                strokeFrom:5.0
+                sizeTo:200
+                lifetime:60
+            }
+                {
+                    type:particleEffect
+                    colorFrom:C8FFA2FF
+                    colorTo:C8FFA2AA
+                    length:200
+                    sizeFrom:15
+                    lifetime:150
+                    particles:45
+                }
+                {
+                    type:particleEffect
+                    colorFrom:C8FFA2FF
+                    colorTo:C8FFA2AA
+                    length:200
+                    sizeFrom:15
+                    lifetime:90
+                    particles:30
+                }]
+        }
+        trailSpacing:20
+        damage:100
+        splashDamageRadius:200
+        splashDamage:150
+        status:blasted
+        speed:500
+        hitShake:15
+        fragBullets:1
+        fragBullet: {
+            type:basicBulletType
+            collides:false
+            absorbable:false
+            hittable:false
+            reflectable:false
+            width:0
+            heigth:0
+            lifetime:90
+            speed:0
+            trailEffect:none
+            hitEffect:none
+            damage:0
+            status:blasted
+            splashDamageRadius:150
+            splashDamage:100
+            hitSound:explosionbig
+            despawnEffect: {
+                type:multiEffect
+                effects:[{
+                    type:waveEffect
+                    colorTo:FF92F4FF
+                    strokeFrom:5.0
+                    sizeTo:150
+                    lifetime:60
+                }
+                    {
+                        type:particleEffect
+                        colorFrom:C8FFA2FF
+                        colorTo:C8FFA2AA
+                        length:150
+                        sizeFrom:15
+                        lifetime:150
+                        particles:45
+                    }
+                    {
+                        type:particleEffect
+                        colorFrom:C8FFA2FF
+                        colorTo:C8FFA2AA
+                        length:150
+                        sizeFrom:15
+                        lifetime:90
+                        particles:30
+                    }]
+            }
+            fragBullets:1
+            fragBullet: {
+                type:basicBulletType
+                collides:false
+                absorbable:false
+                hittable:false
+                reflectable:false
+                width:0
+                heigth:0
+                lifetime:90
+                speed:0
+                trailEffect:none
+                hitEffect:none
+                damage:0
+                splashDamageRadius:75
+                splashDamage:50
+                hitSound:explosionbig
+                status:blasted
+                despawnEffect: {
+                    type:multiEffect
+                    effects:[{
+                        type:waveEffect
+                        colorTo:FF92F4FF
+                        strokeFrom:5.0
+                        sizeTo:75
+                        lifetime:60
+                    }
+                        {
+                            type:particleEffect
+                            colorFrom:C8FFA2FF
+                            colorTo:C8FFA2AA
+                            length:75
+                            sizeFrom:10
+                            lifetime:150
+                            particles:45
+                        }
+                        {
+                            type:particleEffect
+                            colorFrom:C8FFA2FF
+                            colorTo:C8FFA2AA
+                            length:75
+                            sizeFrom:10
+                            lifetime:90
+                            particles:30
+                        }]
+                }
+            }
         }
     }
+}

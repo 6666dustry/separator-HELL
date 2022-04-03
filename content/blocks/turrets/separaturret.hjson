@@ -50,6 +50,11 @@ ammoTypes:{
         height:3
         ammoMultiplier:10
         reloadMultiplier:3.2
+        despawnEffect:{
+            type:particleEffect
+            colorTo:FFC9A6
+            colorFrom:FFC9A6
+            }
         }
     scrap:{
         type:basicBulletType
@@ -59,7 +64,7 @@ ammoTypes:{
         lifetime:60
         ammoMultiplier:4
         fragCone:60
-        fragLifeMax:0.7
+        fragLifeMax:0.5
         fragBullets:4
         fragBullet:standardCopper
         }
@@ -73,6 +78,10 @@ ammoTypes:{
         lifetime:90
         ammoMultiplier:2
         makeFire:true
+        despawnEffect:{
+            type:particleEffect
+            colorTo:FF0004
+            }
         status:burning
         backColor:FF4B00
         }
@@ -107,10 +116,15 @@ ammoTypes:{
         speed:1.7
         lifetime:90
         maxRange:150
-        width:15
-        height:15
+        width:10
+        height:10
         ammoMultiplier:1
         reloadMultiplier:0.3
+        trailEffect:{
+            type:particleEffect
+            region:"shell"
+            particles:5
+            }
         backColor:FFFFFF
         instantDisappear:false
         fragBullets:12
@@ -132,6 +146,18 @@ ammoTypes:{
         puddleAmount:100
         puddleRange:1
         puddleLiquid:slag
+        splashDamage:5
+        splashDamageRadius:10
+        hitEffect:{
+            type:waveEffect
+            sizeTo:25
+            colorTo:FF8500
+            lifetime:25
+        }
+        despawnEffect:{
+            type:particleEffect
+            colorTo:FF8200
+            }
         status:melting
         backColor:FF8200
         }
@@ -144,6 +170,18 @@ ammoTypes:{
         backColor:8700FF
         ammoMultiplier:1
         status:tarred
+        splashDamage:5
+        splashDamageRadius:10
+        despawnEffect:{
+            type:particleEffect
+            colorTo:BE00FF
+            }
+        hitEffect:{
+            type:waveEffect
+            sizeTo:30
+            colorTo:BE00FF
+            lifetime:20
+            }
         puddles:3
         puddleAmount:10
         puddleLiquid:oil
@@ -174,7 +212,7 @@ ammoTypes:{
         speed:2.5
         maxRange:180
         lifetime:90
-        ammoMultiplier:3
+        ammoMultiplier:5
         }
     packedcryofluid:{
         type:liquidBulletType
@@ -185,7 +223,7 @@ ammoTypes:{
         speed:2.5
         maxRange:180
         lifetime:90
-        ammoMultiplier:3
+        ammoMultiplier:5
         }
     packedslag:{
         type:liquidBulletType
@@ -197,7 +235,7 @@ ammoTypes:{
         speed:2.5
         maxRange:180
         lifetime:90
-        ammoMultiplier:3
+        ammoMultiplier:5
         }
     packedoil:{
         type:liquidBulletType
@@ -208,6 +246,6 @@ ammoTypes:{
         speed:2.5
         maxRange:180
         lifetime:90
-        ammoMultiplier:3
+        ammoMultiplier:5
         }
     }

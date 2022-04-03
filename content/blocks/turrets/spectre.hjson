@@ -13,6 +13,28 @@ ammoTypes:{
         knockback:1.2
         pierceCap:3
         pierceBuilding:true
+        trailLength:1
+        trailInterval:10.0
+        trailChance:0.4
+        trailEffect:{
+            type:particleEffect
+            sizeFrom:6.0
+            lifetime:90
+            length:45
+            cone:-50
+            particles:2
+            colorTo:FFEF00
+            region:shell
+            }
+        hitEffect:{
+            type:particleEffect
+            sizeFrom:4.0
+            region:shell
+            lifetime:25
+            length:60
+            particles:10
+            colorTo:FFEF00
+            }
         backColor:FFE000
         }
     blast-compound:{
@@ -28,6 +50,32 @@ ammoTypes:{
         pierceCap:1
         backColor:D0001C
         status:blasted
+        hitSound:explosion
+        trailLength:1
+        trailInterval:1
+        trailChance:0.6
+        trailParam:1
+        trailEffect:{
+            type:waveEffect
+            sizeTo:15
+            lifetime:10
+            strokeFrom:4.5
+            colorTo:FF4000
+            }
+        despawnEffect:{
+            type:waveEffect
+            sizeTo:45
+            lifetime:15
+            strokeFrom:4.5
+            colorTo:FF4000
+            }
+        hitEffect:{
+            type:particleEffect
+            sizeFrom:5.5
+            lifetime:15
+            length:65
+            colorTo:FF4000
+            }
         }
     //this is vannila contents
     graphite:standardDenseBig

@@ -34,7 +34,7 @@ ammoTypes:{
     packedwater:{
         type:liquidBulletType
         liquid:water
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         puddleSize:15
         knockback:1.0
         status:wet
@@ -42,12 +42,12 @@ ammoTypes:{
         speed:3.0
         maxRange:180
         lifetime:70
-        ammoMultiplier:6
+        ammoMultiplier:12
         }
     packedcryofluid:{
         type:liquidBulletType
         liquid:cryofluid
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         puddleSize:15
         knockback:1.0
         status:freezing
@@ -55,26 +55,26 @@ ammoTypes:{
         speed:3.0
         maxRange:180
         lifetime:70
-        ammoMultiplier:6
+        ammoMultiplier:12
         }
     packedslag:{
         type:liquidBulletType
         liquid:slag
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         puddleSize:15
-        damage:7
+        damage:9
         knockback:1.0
         status:melting
         orbSize:3.0
         speed:3.0
         maxRange:180
         lifetime:70
-        ammoMultiplier:6
+        ammoMultiplier:12
         }
     packedoil:{
         type:liquidBulletType
         liquid:oil
-        reloadMultiplier:1.5
+        reloadMultiplier:2.0
         puddleSize:15
         knockback:1.0
         status:tarred
@@ -82,7 +82,7 @@ ammoTypes:{
         speed:3.0
         maxRange:180
         lifetime:70
-        ammoMultiplier:6
+        ammoMultiplier:12
         }
     //this is vanilla contents
     copper:standardCopper
