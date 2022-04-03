@@ -9,9 +9,4 @@ requirements:[
     graphite/15
     ]
 category:liquid
-research:{
-    parent:item separator
-    objective: [
-    liquid-router
-    ]
-}
+research:liquid-router

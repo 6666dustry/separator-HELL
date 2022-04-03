@@ -11,6 +11,6 @@ surge-alloy/2
 ]
 health: 500
 liquidCapacity:33
-research: liquid separator
+research: plated-conduit
 category: liquid
 placeableLiquid: true
