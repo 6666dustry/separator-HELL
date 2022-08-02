@@ -1,9 +1,10 @@
 # separator HELL
-my first mindustry mod this mod add many separator
-but they're not enough so you should be use with another mod.
+my first mindustry mod.
+this mod add many separator.
+but they're not enough, so you should be use with another mod.
 # WARNING
-I'mnot a programer and I'm Japanese
-so I can't speak English well and I can't program well
+I'mnot a programer and I'm Japanese,
+so I can't speak English well and I can't program well.
 I'm sorry.
 
 # blocks
